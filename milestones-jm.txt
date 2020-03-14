@@ -1,0 +1,7 @@
+The most important thing for this lab will be to get started, so that's gonna be the focus of this rubric
+
+Rubric:
+
+15 pts:   Meet 6 Hrs of time    
+15 pts:   Develop small (but functioning) web scraper
+10 pts:   Collect URLs of multiple websites to scrape
