@@ -1,0 +1,65 @@
+All of the following are useful websites that could be used to scrape data
+
+2019 Stats: Notice all URLs are the same besides posID
+QBs - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=10&LeagueID=26955
+- Name, Team, Games, 
+- PassCompletions, PassAttempts, Yards, TDs, INTs,
+- RushAttempts, RushYards, RushTDs, 
+- FantasyPoints, FantasyPoints/Game
+
+RBs - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=20&LeagueID=26955
+- Name, Team, Games, 
+- RushAtt, RushYard, RushTDs
+- RecTarget, Receptions, RecYards, RecTDs
+- FantasyPoints, FantasyPoints/Game
+
+WRs - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955
+- Name, Team, Games,
+- RecTarget, Receptions, RecYards, RecTDs
+- RushAtt, RushYard, RushTDs
+- FantasyPoints, FantasyPoints/Game
+
+TEs - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=40&LeagueID=26955
+- Name, Team, Games,
+- RecTarget, Receptions, RecYards, RecTDs
+- FantasyPoints, FantasyPoints/Game
+
+Ks  - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=80&LeagueID=26955
+- Name, Team, Games,
+- FGsMade, FGsAttempted, FG%, PATsMade, PATsAttempted,
+- FantasyPoints, FantasyPoints/Game
+
+DEF - https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=99&LeagueID=26955
+- Team, Games,
+- Sacks, FumbleRecovery, INTs, DefTDs, 
+- PointsAgainst, PassYDS/Game, RushYards/Game, Safetys, KickTDs
+- FantasyPoints, FantasyPoints/Game
+
+There are also different defensive positions such as LBs and DBs, don't know if we wanna include those
+
+
+
+2020-2021 Projections
+
+https://www.fantasypros.com/2020/01/2020-early-fantasy-football-draft-rankings/
+- easy ranking list 1-300
+
+https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php
+- ranking based on experts, also has tiers
+
+
+
+2020 Strenth of Schedule
+
+1 = easiest schedule, 32 = hardest
+https://fftoolbox.fulltimefantasy.com/football/strength_of_schedule.cfm
+- Week 1-17
+- Team, QB, RB, WR, TE, K, Def
+
+https://fftoolbox.fulltimefantasy.com/football/strength_of_schedule.cfm?type=a
+- Week 1-13
+- Team, QB, RB, WR, TE, K, Def
+
+https://fftoolbox.fulltimefantasy.com/football/strength_of_schedule.cfm?type=f
+- Week 14-16 (PLAYOFFS)
+- Team, QB, RB, WR, TE, K, Def
