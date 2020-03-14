@@ -1,0 +1,11 @@
+rubric:
+	20 points: look into web programming - done, chose django
+	10 points: do django tutorial
+		note: this is my "compileable" part, but I was unable to complete it due to 
+		a mix of computer issues and travel plans changing because of our switch to online.
+		I expect to have this done within the next few days.
+	10 points: look at how django can be used for our purposes - done
+time log:
+	2hrs in lab
+	2hrs researching web development and what could work for us
+	2hrs working through tutorial (before I lost my work)
