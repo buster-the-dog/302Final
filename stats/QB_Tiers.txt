@@ -1,0 +1,67 @@
+
+Tier 1
+1 Lamar Jackson BAL 
+2 Patrick Mahomes KC 
+3 Russell Wilson SEA 
+4 Kyler Murray ARI 
+Tier 2
+5 Dak Prescott DAL 
+6 Deshaun Watson HOU 
+7 Josh Allen BUF 
+8 Aaron Rodgers GB 
+Tier 3
+9 Drew Brees NO 
+10 Matt Ryan ATL 
+11 Carson Wentz PHI 
+12 Matthew Stafford DET 
+13 Tom Brady TB 
+14 Ryan Tannehill TEN 
+15 Baker Mayfield CLE 
+16 Daniel Jones NYG 
+Tier 4
+17 Ben Roethlisberger PIT 
+18 Jared Goff LAR 
+19 Kirk Cousins MIN 
+20 Jimmy Garoppolo SF 
+21 Philip Rivers IND 
+22 Sam Darnold NYJ 
+23 Teddy Bridgewater CAR 
+24 Gardner Minshew II JAC 
+25 Cam Newton FA 
+26 Ryan Fitzpatrick MIA 
+27 Derek Carr LV 
+28 Drew Lock DEN 
+Tier 5
+29 Dwayne Haskins WAS 
+30 Jameis Winston FA 
+31 Nick Foles CHI 
+32 Mitch Trubisky CHI 
+33 Tyrod Taylor LAC 
+34 Andy Dalton CIN 
+35 Jacoby Brissett IND 
+36 Marcus Mariota LV 
+Tier 6
+37 Joe Burrow FA 
+38 Jarrett Stidham NE 
+39 Tua Tagovailoa FA 
+40 Taysom Hill NO 
+41 Justin Herbert FA 
+42 Joe Flacco FA 
+43 Case Keenum CLE 
+44 Josh Rosen MIA 
+45 Jalen Hurts FA 
+46 Nick Mullens SF 
+47 Jordan Love FA 
+Tier 7
+48 Kyle Allen WAS 
+49 Will Grier CAR 
+50 Jacob Eason FA 
+51 Brian Hoyer NE 
+52 Brett Hundley ARI 
+53 Jake Fromm FA 
+54 Matt Moore FA 
+55 Cole McDonald FA 
+56 Anthony Gordon FA 
+57 Chase Daniel DET 
+Tier 8
+58 Mason Rudolph PIT 

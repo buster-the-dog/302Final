@@ -1,456 +1,453 @@
-Tier 1 
-Christian McCaffrey
-Saquon Barkley
-Michael Thomas
-Ezekiel Elliott
-Dalvin Cook
-Tier 2 
-Derrick Henry
-Alvin Kamara
-Tyreek Hill
-Davante Adams
-Aaron Jones
-DeAndre Hopkins
-Joe Mixon
-Tier 3 
-Nick Chubb
-Julio Jones
-Chris Godwin
-Travis Kelce
-George Kittle
-Mike Evans
-Josh Jacobs
-Tier 4 
-Leonard Fournette
-Lamar Jackson
-Kenny Golladay
-Amari Cooper
-Odell Beckham Jr.
-Austin Ekeler
-D.J. Moore
-Mark Andrews
-Todd Gurley
-Allen Robinson
-Miles Sanders
-Tier 5 
-Courtland Sutton
-Chris Carson
-Patrick Mahomes
-Kenyan Drake
-JuJu Smith-Schuster
-Keenan Allen
-A.J. Brown
-Cooper Kupp
-Mark Ingram II
-Melvin Gordon
-DeVante Parker
-Marlon Mack
-Tyler Lockett
-Calvin Ridley
-Devin Singletary
-Zach Ertz
-Tier 6 
-Stefon Diggs
-Le'Veon Bell
-Robert Woods
-Adam Thielen
-T.Y. Hilton
-D.K. Metcalf
-Darren Waller
-Russell Wilson
-A.J. Green
-D.J. Chark
-James Conner
-Kyler Murray
-Kerryon Johnson
-Deshaun Watson
-Dak Prescott
-Terry McLaurin
-Tier 7 
-Michael Gallup
-David Montgomery
-Damien Williams
-Julian Edelman
-Jarvis Landry
-Hunter Henry
-David Johnson
-Deebo Samuel
-Evan Engram
-Phillip Lindsay
-Josh Allen
-Kareem Hunt
-John Brown
-Tyler Boyd
-Austin Hooper
-Sony Michel
-Derrius Guice
-Christian Kirk
-Mike Williams
-Marquise Brown
-Will Fuller
-Tier 8 
-Aaron Rodgers
-Ronald Jones II
-Drew Brees
-Jared Cook
-Matt Ryan
-Robby Anderson
-Raheem Mostert
-Marvin Jones
-Tyler Higbee
-Carson Wentz
-Sterling Shepard
-Alshon Jeffery
-Latavius Murray
-Emmanuel Sanders
-Anthony Miller
-Jordan Howard
-James White
-Darius Slayton
-Noah Fant
-Matthew Stafford
-Brandin Cooks
-Tevin Coleman
-Curtis Samuel
-Dallas Goedert
-Tier 9 
-Ryan Tannehill
-Darrell Henderson
-Devonta Freeman
-Jamison Crowder
-Preston Williams
-Tarik Cohen
-Jamaal Williams
-O.J. Howard
-Baker Mayfield
-Daniel Jones
-Ben Roethlisberger
-Alexander Mattison
-Diontae Johnson
-T.J. Hockenson
-Duke Johnson
-Royce Freeman
-Carlos Hyde
-Kirk Cousins
-Golden Tate
-Mike Gesicki
-Tom Brady
-Mecole Hardman
-Sammy Watkins
-Tony Pollard
-Jared Goff
-Jonnu Smith
-DeSean Jackson
-Matt Breida
-Adrian Peterson
-Justice Hill
-Eric Ebron
-Breshad Perriman
-Tier 10 
-Tyrell Williams
-N'Keal Harry
-John Ross
-Jimmy Garoppolo
-Jack Doyle
-San Francisco (SF)
-Pittsburgh (PIT)
-Boston Scott
-Kenny Stills
-Dede Westbrook
-James Washington
-Chase Edmonds
-Justin Jackson
-Ian Thomas
-Baltimore (BAL)
-Cam Newton
-Sam Darnold
-New England (NE)
-Rashaad Penny
-Philip Rivers
-Corey Davis
-Buffalo (BUF)
-Chris Herndon IV
-Parris Campbell
-Larry Fitzgerald
-Los Angeles (LAR)
-Hunter Renfrow
-Chicago (CHI)
-Cole Beasley
-Ryan Fitzpatrick
-Will Dissly
-Justin Tucker
-Jameis Winston
-Gus Edwards
-Harrison Butker
-Minnesota (MIN)
-Tier 11 
-David Njoku
-Nyheim Hines
-Malcolm Brown
-Wil Lutz
-Irv Smith Jr.
-Kyle Rudolph
-Gardner Minshew II
-Jaylen Samuels
-Greg Zuerlein
-Randall Cobb
-Peyton Barber
-Kansas City (KC)
-Greg Olsen
-Drew Lock
-Benny Snell Jr.
-New Orleans (NO)
-Derek Carr
-Allen Lazard
-Andy Isabella
-Robbie Gould
-Los Angeles (LAC)
-DeAndre Washington
-New York (NYJ)
-Darwin Thompson
-Matt Gay
-Albert Wilson
-Blake Jarwin
-Mohamed Sanu
-Matt Prater
-Giovani Bernard
-Chris Conley
-Denver (DEN)
-Dawson Knox
-Seattle (SEA)
-Philadelphia (PHI)
-Teddy Bridgewater
-Rex Burkhead
-Vance McDonald
-Tre'Quan Smith
-Tier 12 
-Tennessee (TEN)
-Mitch Trubisky
-Michael Badgley
-Zane Gonzalez
-Ryquell Armstead
-Ka'imi Fairbairn
-Green Bay (GB)
-Ito Smith
-Devin Funchess
-Stephen Gostkowski
-Mason Crosby
-Danny Amendola
-Dion Lewis
-Dwayne Haskins
-Jake Elliott
-Nelson Agholor
-Brandon McManus
-Dan Bailey
-Joey Slye
-Dallas (DAL)
-Gerald Everett
-Cleveland (CLE)
-Auden Tate
-Damien Harris
-Jimmy Graham
-Taylor Gabriel
-Miles Boykin
-Chris Thompson
-LeSean McCoy
-Lamar Miller
-Zach Pascal
-Kelvin Harmon
-Antonio Brown
-J.J. Arcega-Whiteside
-Darrel Williams
-DaeSean Hamilton
-Jason Myers
-Cameron Brate
-Indianapolis (IND)
-Jacob Hollister
-David Moore
-Marquez Valdes-Scantling
-Chris Boswell
-Tier 13 
-Demarcus Robinson
-Jakobi Meyers
-Stephen Hauschka
-Houston (HOU)
-Phillip Dorsett
-Bo Scarbrough
-Jalen Hurd
-Adam Humphries
-Jalen Richard
-Jordan Wilkins
-Tampa Bay (TB)
-Younghoe Koo
-Keke Coutee
-Nick Foles
-Jacoby Brissett
-Mike Boone
-Josh Lambo
-Willie Snead
-Jacksonville (JAC)
-Brian Hill
-Josh Reynolds
-Steven Sims
-Patrick Laird
-Andy Dalton
-Trey Burton
-Delanie Walker
-T.J. Yeldon
-Demaryius Thomas
-Brett Maher
-Greg Ward
-Russell Gage
-Keelan Cole
-Atlanta (ATL)
-Bryce Love
-Hayden Hurst
-Aldrick Rosas
-Austin Seibert
-Wayne Gallman
-Jordan Akins
-Tyrod Taylor
-Travis Homer
-Washington (WAS)
-Myles Gaskin
-Ted Ginn
-Carolina (CAR)
-Geronimo Allison
-Jonathan Taylor
-Qadree Ollison
-Detroit (DET)
-Dare Ogunbowale
-Kendrick Bourne
-Kalen Ballage
-Dante Pettis
-Daniel Carlson
-D'Andre Swift
-Tier 14 
-J.K. Dobbins
-Kai Forbath
-Justin Watson
-Adam Vinatieri
-Marquise Goodwin
-Oakland (OAK)
-Paul Richardson Jr.
-Cam Akers
-Josh Gordon
-Joe Burrow
-Jerick McKinnon
-CeeDee Lamb
-KeeSean Johnson
-Frank Gore
-Jerry Jeudy
-Zay Jones
-Ty Montgomery
-Marcus Mariota
-Ty Johnson
-Quincy Enunwa
-Mike Davis
-Jeff Wilson
-Bilal Powell
-Justin Jefferson
-Clyde Edwards-Helaire
-Henry Ruggs III
-Tee Higgins
-Dustin Hopkins
-Dexter Williams
-Reggie Bonnafon
-Tyler Eifert
-A.J. Dillon
-Laviska Shenault Jr.
-Zack Moss
-Jarrett Stidham
-Kerrith Whyte Jr.
-Corey Clement
-Jalen Reagor
-Dontrell Hilliard
-Trayveon Williams
-Jace Sternberger
-Kyle Juszczyk
-C.J. Anderson
-Chase McLaughlin
-Darren Fells
-Devontae Booker
-Tier 15 
-Josh Oliver
-Taysom Hill
-New York (NYG)
-Tua Tagovailoa
-Jason Witten
-Denzel Mims
-Brandon Aiyuk
-Michael Pittman Jr.
-Arizona (ARI)
-Kaden Smith
-Damiere Byrd
-Hakeem Butler
-Ke'Shawn Vaughn
-Tyler Johnson
-Allen Hurns
-Tajae Sharpe
-Ryan Griffin
-Riley Ridley
-Jonathan Williams
-Eno Benjamin
-Mo Alie-Cox
-Cincinnati (CIN)
-Darrynton Evans
-Ryan Succop
-Foster Moreau
-Cole Kmet
-KJ Hamler
-Jordan Reed
-Brycen Hopkins
-Hunter Bryant
-Anthony McFarland Jr.
-Joe Flacco
-C.J. Uzomah
-Eddy Pineiro
-Olabisi Johnson
-Justin Herbert
-Miami (MIA)
-Trey Quinn
-Bryan Edwards
-Scott Miller
-Rodney Anderson
-Tim Patrick
-Marqise Lee
-Drew Sample
-Cordarrelle Patterson
-Jason Sanders
-Nick Boyle
-Matt Bryant
-Josh Rosen
-Rashard Higgins
-Case Keenum
-Antonio Gibson
-Randy Bullock
-John Kelly
-Jake Kumerow
-James Robinson
-Joshua Kelley
-Jakeem Grant
-Deon Cain
-Isaiah Crowell
-Robert Foster
-Chris Hogan
-Keelan Doss
-Jalen Hurts
-Donovan Peoples-Jones
-Taywan Taylor
-Tier 16 
-Antonio Gandy-Golden
-Byron Pringle
-Spencer Ware
-Chase Claypool
-Adam Trautman
-J.J. Taylor
-Ricky Seals-Jones
-Nick Mullens
-Charles Clay
-Demetrius Harris
-DeeJay Dallas
-Lamical Perine
-Josh Hill
-Wendell Smallwood
-Harrison Bryant
-Albert Okwuegbunam
+
+Tier 1
+1 Christian McCaffrey CAR 
+2 Saquon Barkley NYG 
+3 Michael Thomas NO 
+4 Ezekiel Elliott DAL 
+Tier 2
+5 Dalvin Cook MIN 
+6 Derrick Henry TEN 
+7 Alvin Kamara NO 
+Tier 3
+8 Tyreek Hill KC 
+9 Davante Adams GB 
+10 Aaron Jones GB 
+11 Joe Mixon CIN 
+12 Julio Jones ATL 
+13 Nick Chubb CLE 
+14 DeAndre Hopkins ARI 
+15 Chris Godwin TB 
+16 Travis Kelce KC 
+17 George Kittle SF 
+Tier 4
+18 Mike Evans TB 
+19 Josh Jacobs LV 
+20 Lamar Jackson BAL 
+21 Kenny Golladay DET 
+22 Leonard Fournette JAC 
+23 Amari Cooper DAL 
+24 Austin Ekeler LAC 
+25 Kenyan Drake ARI 
+26 Odell Beckham Jr. CLE 
+Tier 5
+27 Miles Sanders PHI 
+28 D.J. Moore CAR 
+29 Allen Robinson CHI 
+30 Courtland Sutton DEN 
+31 Mark Andrews BAL 
+32 Todd Gurley ATL 
+33 Patrick Mahomes KC 
+34 Chris Carson SEA 
+35 A.J. Brown TEN 
+36 JuJu Smith-Schuster PIT 
+37 Cooper Kupp LAR 
+38 Marlon Mack IND 
+39 Adam Thielen MIN 
+Tier 6
+40 Mark Ingram II BAL 
+41 Keenan Allen LAC 
+42 Calvin Ridley ATL 
+43 DeVante Parker MIA 
+44 Zach Ertz PHI 
+45 Devin Singletary BUF 
+46 Melvin Gordon DEN 
+47 Tyler Lockett SEA 
+48 Robert Woods LAR 
+49 Stefon Diggs BUF 
+50 D.K. Metcalf SEA 
+51 Le'Veon Bell NYJ 
+52 T.Y. Hilton IND 
+53 Darren Waller LV 
+54 A.J. Green CIN 
+55 Russell Wilson SEA 
+Tier 7
+56 Kyler Murray ARI 
+57 Damien Williams KC 
+58 James Conner PIT 
+59 D.J. Chark JAC 
+60 Terry McLaurin WAS 
+61 Michael Gallup DAL 
+62 Kerryon Johnson DET 
+63 Dak Prescott DAL 
+64 David Montgomery CHI 
+65 David Johnson HOU 
+66 Deshaun Watson HOU 
+67 Hunter Henry LAC 
+68 Jarvis Landry CLE 
+69 Josh Allen BUF 
+70 Deebo Samuel SF 
+71 Julian Edelman NE 
+72 Evan Engram NYG 
+73 Tyler Boyd CIN 
+Tier 8
+74 Will Fuller HOU 
+75 Raheem Mostert SF 
+76 Kareem Hunt CLE 
+77 John Brown BUF 
+78 Derrius Guice WAS 
+79 Phillip Lindsay DEN 
+80 Sony Michel NE 
+81 Marquise Brown BAL 
+82 Aaron Rodgers GB 
+83 Ronald Jones II TB 
+84 Mike Williams LAC 
+85 Drew Brees NO 
+86 Jared Cook NO 
+87 Tyler Higbee LAR 
+88 Christian Kirk ARI 
+89 Austin Hooper CLE 
+90 Marvin Jones DET 
+91 Matt Ryan ATL 
+92 Carson Wentz PHI 
+93 Jordan Howard MIA 
+94 Robby Anderson CAR 
+95 Sterling Shepard NYG 
+96 Darrell Henderson LAR 
+97 Darius Slayton NYG 
+98 Emmanuel Sanders NO 
+99 Alshon Jeffery PHI 
+100 Brandin Cooks LAR 
+101 Latavius Murray NO 
+Tier 9
+102 Matthew Stafford DET 
+103 James White NE 
+104 Noah Fant DEN 
+105 Anthony Miller CHI 
+106 Tevin Coleman SF 
+107 Dallas Goedert PHI 
+108 Curtis Samuel CAR 
+109 Tom Brady TB 
+110 Ryan Tannehill TEN 
+111 Jamison Crowder NYJ 
+112 Preston Williams MIA 
+113 Baker Mayfield CLE 
+114 Jamaal Williams GB 
+115 Daniel Jones NYG 
+116 Alexander Mattison MIN 
+117 Tarik Cohen CHI 
+118 O.J. Howard TB 
+119 Diontae Johnson PIT 
+120 Ben Roethlisberger PIT 
+121 T.J. Hockenson DET 
+122 Mecole Hardman KC 
+123 Tony Pollard DAL 
+124 Mike Gesicki MIA 
+Tier 10
+125 Jonnu Smith TEN 
+126 Sammy Watkins KC 
+127 Devonta Freeman FA 
+128 Jared Goff LAR 
+129 Golden Tate NYG 
+130 Duke Johnson HOU 
+131 Breshad Perriman NYJ 
+132 Adrian Peterson WAS 
+133 Kirk Cousins MIN 
+134 Justice Hill BAL 
+135 DeSean Jackson PHI 
+136 Matt Breida SF 
+137 Boston Scott PHI 
+138 Kenny Stills HOU 
+139 Jack Doyle IND 
+140 Carlos Hyde FA 
+141 Eric Ebron PIT 
+142 Tyrell Williams LV 
+143 John Ross CIN 
+144 Royce Freeman DEN 
+145 Jimmy Garoppolo SF 
+146 Justin Jackson LAC 
+147 N'Keal Harry NE 
+148 San Francisco (SF) 
+149 Chase Edmonds ARI 
+150 James Washington PIT 
+151 Ian Thomas CAR 
+152 Malcolm Brown LAR 
+153 Pittsburgh (PIT) 
+154 Philip Rivers IND 
+155 Dede Westbrook JAC 
+156 Rashaad Penny SEA 
+Tier 11
+157 Baltimore (BAL) 
+158 Parris Campbell IND 
+159 Sam Darnold NYJ 
+160 Hunter Renfrow LV 
+161 Chris Herndon IV NYJ 
+162 Nyheim Hines IND 
+163 Greg Olsen SEA 
+164 Gus Edwards BAL 
+165 New England (NE) 
+166 Buffalo (BUF) 
+167 Corey Davis TEN 
+168 Larry Fitzgerald ARI 
+169 Chicago (CHI) 
+170 Gardner Minshew II JAC 
+171 Harrison Butker KC 
+172 Justin Tucker BAL 
+173 Randall Cobb HOU 
+174 Teddy Bridgewater CAR 
+175 Los Angeles (LAR) 
+176 Cole Beasley BUF 
+177 Jaylen Samuels PIT 
+178 Blake Jarwin DAL 
+179 Minnesota (MIN) 
+180 Allen Lazard GB 
+181 Wil Lutz NO 
+182 Irv Smith Jr. MIN 
+183 Ryan Fitzpatrick MIA 
+184 Kyle Rudolph MIN 
+185 Cam Newton FA 
+186 Greg Zuerlein DAL 
+187 David Njoku CLE 
+188 Derek Carr LV 
+189 Darwin Thompson KC 
+190 Will Dissly SEA 
+191 New Orleans (NO) 
+Tier 12
+192 Kansas City (KC) 
+193 Drew Lock DEN 
+194 Benny Snell Jr. PIT 
+195 Chris Conley JAC 
+196 DeAndre Washington LV 
+197 Mohamed Sanu NE 
+198 Peyton Barber WAS 
+199 Robbie Gould SF 
+200 Giovani Bernard CIN 
+201 Los Angeles (LAC) 
+202 Andy Isabella ARI 
+203 Matt Gay TB 
+204 Albert Wilson MIA 
+205 Rex Burkhead NE 
+206 Matt Prater DET 
+207 Dawson Knox BUF 
+208 Tre'Quan Smith NO 
+209 Denver (DEN) 
+210 Philadelphia (PHI) 
+211 New York (NYJ) 
+212 Zane Gonzalez ARI 
+213 Ryquell Armstead JAC 
+214 Seattle (SEA) 
+215 Michael Badgley LAC 
+216 Danny Amendola DET 
+217 Hayden Hurst ATL 
+218 Ito Smith ATL 
+219 Jameis Winston FA 
+220 Tennessee (TEN) 
+221 Ka'imi Fairbairn HOU 
+222 Green Bay (GB) 
+223 Mason Crosby GB 
+224 Vance McDonald PIT 
+225 Devin Funchess GB 
+226 Jake Elliott PHI 
+227 Stephen Gostkowski FA 
+228 Auden Tate CIN 
+Tier 13
+229 Brandon McManus DEN 
+230 Nelson Agholor LV 
+231 Joey Slye CAR 
+232 Miles Boykin BAL 
+233 Lamar Miller FA 
+234 Dwayne Haskins WAS 
+235 Damien Harris NE 
+236 Dan Bailey MIN 
+237 Zach Pascal IND 
+238 Chris Thompson FA 
+239 Mitch Trubisky CHI 
+240 Cleveland (CLE) 
+241 Gerald Everett LAR 
+242 J.J. Arcega-Whiteside PHI 
+243 Dallas (DAL) 
+244 Jimmy Graham CHI 
+245 Taylor Gabriel FA 
+246 Dion Lewis NYG 
+247 Kelvin Harmon WAS 
+248 Cameron Brate TB 
+249 Jason Myers SEA 
+250 Indianapolis (IND) 
+251 Bo Scarbrough DET 
+252 Darrel Williams KC 
+253 Jordan Wilkins IND 
+254 Marquez Valdes-Scantling GB 
+255 Chris Boswell PIT 
+256 Demarcus Robinson KC 
+257 David Moore SEA 
+258 Jakobi Meyers NE 
+259 Jalen Hurd SF 
+260 DaeSean Hamilton DEN 
+261 Stephen Hauschka BUF 
+262 Steven Sims WAS 
+263 Jalen Richard LV 
+264 Jacob Hollister SEA 
+265 Nick Foles CHI 
+266 Houston (HOU) 
+267 Jonathan Taylor FA 
+268 Younghoe Koo ATL 
+269 Tampa Bay (TB) 
+270 Adam Humphries TEN 
+271 Phillip Dorsett SEA 
+272 LeSean McCoy FA 
+273 D'Andre Swift FA 
+274 J.K. Dobbins FA 
+275 Tyrod Taylor LAC 
+276 CeeDee Lamb FA 
+277 Jerry Jeudy FA 
+278 Patrick Laird MIA 
+Tier 14
+279 Willie Snead BAL 
+280 Antonio Brown FA 
+281 Josh Lambo JAC 
+282 Mike Boone MIN 
+283 Delanie Walker FA 
+284 Russell Gage ATL 
+285 Keke Coutee HOU 
+286 Josh Reynolds LAR 
+287 T.J. Yeldon BUF 
+288 Jacksonville (JAC) 
+289 Brian Hill ATL 
+290 Demaryius Thomas FA 
+291 Wayne Gallman NYG 
+292 Cam Akers FA 
+293 Aldrick Rosas NYG 
+294 Brett Maher NYJ 
+295 Andy Dalton CIN 
+296 Jordan Akins HOU 
+297 Atlanta (ATL) 
+298 Trey Burton CHI 
+299 Austin Seibert CLE 
+300 Dare Ogunbowale TB 
+301 Joe Burrow FA 
+302 Bryce Love WAS 
+303 Greg Ward PHI 
+304 Washington (WAS) 
+305 Henry Ruggs III FA 
+306 Clyde Edwards-Helaire FA 
+307 Keelan Cole JAC 
+308 Travis Homer SEA 
+309 Jacoby Brissett IND 
+310 Jerick McKinnon SF 
+311 Carolina (CAR) 
+312 Kendrick Bourne SF 
+313 Justin Jefferson FA 
+314 Geronimo Allison DET 
+315 Myles Gaskin MIA 
+316 Tee Higgins FA 
+317 Daniel Carlson LV 
+318 Detroit (DET) 
+319 Ted Ginn NO 
+320 Dante Pettis SF 
+321 Las Vegas (LV) 
+322 Qadree Ollison ATL 
+323 Kai Forbath DAL 
+324 Justin Watson TB 
+325 Marquise Goodwin SF 
+326 Adam Vinatieri FA 
+327 Kalen Ballage MIA 
+328 Josh Gordon FA 
+329 Laviska Shenault Jr. FA 
+330 Marcus Mariota LV 
+331 KeeSean Johnson ARI 
+332 Paul Richardson Jr. FA 
+333 Jarrett Stidham NE 
+334 Mike Davis CAR 
+335 Ty Montgomery FA 
+Tier 15
+336 Ty Johnson DET 
+337 Jace Sternberger GB 
+338 A.J. Dillon FA 
+339 Zay Jones LV 
+340 Tyler Eifert JAC 
+341 Reggie Bonnafon CAR 
+342 Dustin Hopkins WAS 
+343 Quincy Enunwa NYJ 
+344 Jalen Reagor FA 
+345 Zack Moss FA 
+346 Bilal Powell FA 
+347 Frank Gore FA 
+348 Dexter Williams GB 
+349 Jeff Wilson SF 
+350 Darren Fells HOU 
+351 Trayveon Williams CIN 
+352 Josh Oliver JAC 
+353 Denzel Mims FA 
+354 Corey Clement FA 
+355 Ke'Shawn Vaughn FA 
+356 Kerrith Whyte Jr. PIT 
+357 Chase McLaughlin IND 
+358 Tua Tagovailoa FA 
+359 Dontrell Hilliard CLE 
+360 Ryan Griffin NYJ 
+361 New York (NYG) 
+362 Michael Pittman Jr. FA 
+363 Hakeem Butler ARI 
+364 Devontae Booker DEN 
+365 Jason Witten LV 
+366 Eno Benjamin FA 
+367 Kyle Juszczyk SF 
+368 Arizona (ARI) 
+369 Riley Ridley CHI 
+370 C.J. Anderson FA 
+371 Cincinnati (CIN) 
+372 Allen Hurns MIA 
+373 Mo Alie-Cox IND 
+374 Ryan Succop FA 
+375 Brandon Aiyuk FA 
+376 J.D. McKissic WAS 
+377 Taysom Hill NO 
+378 Olabisi Johnson MIN 
+379 Eddy Pineiro CHI 
+380 Darrynton Evans FA 
+381 Tajae Sharpe MIN 
+382 Jordan Reed FA 
+Tier 16
+383 Tyler Johnson FA 
+384 Tim Patrick DEN 
+385 Kaden Smith NYG 
+386 Anthony McFarland Jr. FA 
+387 Scott Miller TB 
+388 Miami (MIA) 
+389 Justin Herbert FA 
+390 Cole Kmet FA 
+391 John Kelly LAR 
+392 Jason Sanders MIA 
+393 Cordarrelle Patterson CHI 
+394 Rodney Anderson CIN 
+395 Damiere Byrd NE 
+396 Foster Moreau LV 
+397 Byron Pringle KC 
+398 Drew Sample CIN 
+399 Albert Okwuegbunam FA 
+400 Randy Bullock CIN 
+401 Jonathan Williams IND 
+402 Antonio Gibson FA 
+403 Joe Flacco FA 
+404 Rashard Higgins FA 
+405 Thaddeus Moss FA 
+406 Josh Rosen MIA 
+407 C.J. Uzomah CIN 
+408 James Robinson FA 
+409 Joshua Kelley FA 
+410 Trey Quinn WAS 
+411 Isaiah Crowell FA 
+412 Nick Boyle BAL 
+413 Case Keenum CLE 
+414 Robert Foster BUF 
+415 Marqise Lee JAC 
+416 Jalen Hurts FA 
+417 Donovan Peoples-Jones FA 
+418 Bryan Edwards FA 
+419 Jake Kumerow GB 
+420 Antonio Gandy-Golden FA 
+421 Jakeem Grant MIA 
+422 Deon Cain PIT 
+423 Brycen Hopkins FA 
+424 Ricky Seals-Jones KC 
+425 Matt Bryant FA 
+426 KJ Hamler FA 
+427 Hunter Bryant FA 
+428 Chase Claypool FA 
+429 Chris Hogan FA 
+430 J.J. Taylor FA 
+431 Taywan Taylor CLE 
+432 Adam Trautman FA 
+433 DeeJay Dallas FA 
+434 Nick Mullens SF 
+435 Lamical Perine FA 
+436 Harrison Bryant FA 

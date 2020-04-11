@@ -2,13 +2,13 @@ import requests
 import bs4
 from bs4 import BeautifulSoup
 from requests_html import HTMLSession
-import re
+import os
 
 # function that gets stats of players from 2019-2020
 def PastStats(url, filename, position):
   
   filename = "stats/" + filename
-  f = open(filename, "w")
+  f = open(filename, "a+")
   players = []
   mod = 0       #figures out modulus for printing purposes
 
@@ -86,10 +86,20 @@ def FutureTiers(url, filename):
   f = open(filename, "w")
 
   # this gets all the players names and what tier, prints to file
-  rows = soup.find_all(class_=['full-name', 'tier-row static'])
+  rows = soup.find_all(class_=['full-name', 'grey', 'sticky-cell sticky-cell-one'])
+  #player = soup.find_all(class_='full-name')
+  
   for row in rows:
-    f.write(row.text)
-    f.write('\n')
+    if 'Tier' in row.text:
+      f.write('\n')
+      f.write(row.text)
+    else:
+      if row.text.isnumeric():
+        f.write('\n')
+      f.write(row.text + ' ')
+  
+  f.close()
+    
 
 # will remain commented out until websites are fixed
 """
@@ -109,31 +119,58 @@ def SoS(url, filename):
 
 
 # main begins here
-
+'''
 # make function calls here
 # first, QBs
-PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=10", "QBs.txt", "QB")
+# also, this website has multiple pages, so we call the same function with multiple websites
+os.remove("stats/QBs.txt")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=10&LeagueID=26955", "QBs.txt", "QB")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=10&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=1", "QBs.txt", "QB")
+
 
 # then RBs
+os.remove("stats/RBs.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=20&LeagueID=26955", "RBs.txt", "RB")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=20&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=1", "RBs.txt", "RB")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=20&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=2", "RBs.txt", "RB")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=20&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=3", "RBs.txt", "RB")
 
 # now WRs
+os.remove("stats/WRs.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955", "WRs.txt", "WR")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=1", "WRs.txt", "WR")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=2", "WRs.txt", "WR")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=3", "WRs.txt", "WR")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=30&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=4", "WRs.txt", "WR")
 
 # TEs
+os.remove("stats/TEs.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=40&LeagueID=26955", "TEs.txt", "TE")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=40&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=1", "TEs.txt", "TE")
+PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=40&LeagueID=26955&order_by=FFPts&sort_order=DESC&cur_page=2", "TEs.txt", "TE")
 
 # Ks
+os.remove("stats/Ks.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=80&LeagueID=26955", "Ks.txt", "K")
 
 # DEFs
+os.remove("stats/DEFs.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=99&LeagueID=26955", "DEFs.txt", "DEF")
-
+'''
 # List of Players 1-311 in tiers
 FutureTiers("https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php", "Tiers.txt")
 
+# this website also does tiers by position, so the next few calls are for that
+FutureTiers("https://www.fantasypros.com/nfl/rankings/qb-cheatsheets.php", "QB_Tiers.txt")
+FutureTiers("https://www.fantasypros.com/nfl/rankings/rb-cheatsheets.php", "RB_Tiers.txt")
+FutureTiers("https://www.fantasypros.com/nfl/rankings/wr-cheatsheets.php", "WR_Tiers.txt")
+FutureTiers("https://www.fantasypros.com/nfl/rankings/te-cheatsheets.php", "TE_Tiers.txt")
+FutureTiers("https://www.fantasypros.com/nfl/rankings/k-cheatsheets.php", "K_Tiers.txt")
+FutureTiers("https://www.fantasypros.com/nfl/rankings/dst-cheatsheets.php", "DEF_Tiers.txt")
+
+
 # Basic list of players 1-311
-FutureRankings("http://partners.fantasypros.com/external/widget/fp-widget.php?height=800px&width=100%25&thead_color=%23ffffff&thead_font=%23000000&t_alt_row=%23fafafa&link_color=%233778be&pill_color=%232881eb&sport=NFL&wtype=preseason&filters=&scoring=HALF&expert=769&affiliate_code=&year=2020&week=0&auction=false&Notes=false&tags=false&cards=true&format=table&promo_link=false&positions=QB%3ADST%3AK&ppr_positions=&half_positions=ALL%3ARB%3AWR%3ATE&site=&fd_aff=&dk_aff=&fa_aff=&dp_aff=&", "ranks.txt")
+#FutureRankings("http://partners.fantasypros.com/external/widget/fp-widget.php?height=800px&width=100%25&thead_color=%23ffffff&thead_font=%23000000&t_alt_row=%23fafafa&link_color=%233778be&pill_color=%232881eb&sport=NFL&wtype=preseason&filters=&scoring=HALF&expert=769&affiliate_code=&year=2020&week=0&auction=false&Notes=false&tags=false&cards=true&format=table&promo_link=false&positions=QB%3ADST%3AK&ppr_positions=&half_positions=ALL%3ARB%3AWR%3ATE&site=&fd_aff=&dk_aff=&fa_aff=&dp_aff=&", "ranks.txt")
 
 # Below will be strength of schedule websites, but they're currently broken
 # so will be added later

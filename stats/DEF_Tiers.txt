@@ -1,0 +1,38 @@
+
+Tier 1
+1 San Francisco (SF) 
+2 Pittsburgh (PIT) 
+3 Baltimore (BAL) 
+Tier 2
+4 Buffalo (BUF) 
+5 New England (NE) 
+6 Los Angeles (LAR) 
+7 Chicago (CHI) 
+8 Kansas City (KC) 
+Tier 3
+9 Minnesota (MIN) 
+10 New Orleans (NO) 
+11 Los Angeles (LAC) 
+12 Denver (DEN) 
+13 New York (NYJ) 
+14 Philadelphia (PHI) 
+Tier 4
+15 Seattle (SEA) 
+16 Tennessee (TEN) 
+17 Green Bay (GB) 
+18 Dallas (DAL) 
+19 Indianapolis (IND) 
+20 Tampa Bay (TB) 
+21 Cleveland (CLE) 
+Tier 5
+22 Houston (HOU) 
+23 Jacksonville (JAC) 
+24 Atlanta (ATL) 
+25 Washington (WAS) 
+26 Carolina (CAR) 
+27 Detroit (DET) 
+28 Las Vegas (LV) 
+29 New York (NYG) 
+30 Miami (MIA) 
+31 Arizona (ARI) 
+32 Cincinnati (CIN) 
