@@ -1,138 +1,138 @@
 
 Tier 1
-1 Christian McCaffrey CAR 
-2 Saquon Barkley NYG 
-3 Ezekiel Elliott DAL 
+1.0 1 Christian McCaffrey CAR 
+2.3 2 Saquon Barkley NYG 
+3.0 3 Ezekiel Elliott DAL 
 Tier 2
-4 Dalvin Cook MIN 
-5 Derrick Henry TEN 
-6 Alvin Kamara NO 
-7 Aaron Jones GB 
-8 Joe Mixon CIN 
-9 Nick Chubb CLE 
+4.5 4 Dalvin Cook MIN 
+5.5 5 Derrick Henry TEN 
+6.0 6 Alvin Kamara NO 
+7.8 7 Aaron Jones GB 
+7.9 8 Joe Mixon CIN 
+8.2 9 Nick Chubb CLE 
 Tier 3
-10 Josh Jacobs LV 
-11 Leonard Fournette JAC 
-12 Austin Ekeler LAC 
-13 Kenyan Drake ARI 
-14 Miles Sanders PHI 
-15 Todd Gurley ATL 
-16 Chris Carson SEA 
+10.6 10 Josh Jacobs LV 
+12.3 11 Leonard Fournette JAC 
+13.4 12 Austin Ekeler LAC 
+13.5 13 Kenyan Drake ARI 
+14.5 14 Miles Sanders PHI 
+15.9 15 Todd Gurley ATL 
+16.0 16 Chris Carson SEA 
 Tier 4
-17 Marlon Mack IND 
-18 Mark Ingram II BAL 
-19 Devin Singletary BUF 
-20 Melvin Gordon DEN 
-21 Le'Veon Bell NYJ 
-22 Damien Williams KC 
-23 James Conner PIT 
-24 Kerryon Johnson DET 
-25 David Johnson HOU 
-26 David Montgomery CHI 
+17.7 17 Marlon Mack IND 
+18.8 18 Mark Ingram II BAL 
+19.3 19 Devin Singletary BUF 
+19.8 20 Melvin Gordon DEN 
+21.5 21 Le'Veon Bell NYJ 
+23.5 22 Damien Williams KC 
+23.9 23 James Conner PIT 
+24.7 24 Kerryon Johnson DET 
+24.9 25 David Johnson HOU 
+25.5 26 David Montgomery CHI 
 Tier 5
-27 Raheem Mostert SF 
-28 Derrius Guice WAS 
-29 Kareem Hunt CLE 
-30 Sony Michel NE 
-31 Phillip Lindsay DEN 
-32 Ronald Jones II TB 
-33 Darrell Henderson LAR 
-34 Jordan Howard MIA 
-35 Latavius Murray NO 
-36 James White NE 
-37 Tevin Coleman SF 
+29.8 27 Raheem Mostert SF 
+30.3 28 Derrius Guice WAS 
+30.3 29 Kareem Hunt CLE 
+31.6 30 Sony Michel NE 
+31.8 31 Ronald Jones II TB 
+31.8 32 Phillip Lindsay DEN 
+34.9 33 Darrell Henderson LAR 
+35.4 34 Jordan Howard MIA 
+37.3 35 Latavius Murray NO 
+38.4 36 James White NE 
+39.1 37 Tevin Coleman SF 
+43.1 38 Alexander Mattison MIN 
+43.1 39 Jamaal Williams GB 
+43.2 40 Tarik Cohen CHI 
 Tier 6
-38 Alexander Mattison MIN 
-39 Jamaal Williams GB 
-40 Tarik Cohen CHI 
-41 Devonta Freeman FA 
-42 Duke Johnson HOU 
-43 Tony Pollard DAL 
-44 Adrian Peterson WAS 
-45 Justice Hill BAL 
-46 Boston Scott PHI 
-47 Matt Breida SF 
-48 Royce Freeman DEN 
-49 Justin Jackson LAC 
-50 Chase Edmonds ARI 
-51 Malcolm Brown LAR 
-52 Nyheim Hines IND 
-53 Carlos Hyde FA 
-54 Rashaad Penny SEA 
-55 Gus Edwards BAL 
-56 Jaylen Samuels PIT 
+46.6 41 Duke Johnson HOU 
+47.6 42 Adrian Peterson WAS 
+43.8 43 Devonta Freeman FA 
+49.2 44 Boston Scott PHI 
+44.8 45 Tony Pollard DAL 
+50.2 46 Justin Jackson LAC 
+48.6 47 Justice Hill BAL 
+48.8 48 Matt Breida SF 
+50.1 49 Royce Freeman DEN 
+51.2 50 Malcolm Brown LAR 
+51.2 51 Chase Edmonds ARI 
+54.5 52 Nyheim Hines IND 
+46.1 53 Carlos Hyde FA 
+55.9 54 Gus Edwards BAL 
+52.2 55 Rashaad Penny SEA 
+58.0 56 Jaylen Samuels PIT 
 Tier 7
-57 Darwin Thompson KC 
-58 Benny Snell Jr. PIT 
-59 DeAndre Washington LV 
-60 Peyton Barber WAS 
-61 Giovani Bernard CIN 
-62 Rex Burkhead NE 
-63 Ryquell Armstead JAC 
-64 Ito Smith ATL 
-65 Damien Harris NE 
-66 Dion Lewis NYG 
-67 Darrel Williams KC 
-68 Chris Thompson FA 
-69 Lamar Miller FA 
-70 Bo Scarbrough DET 
-71 Jordan Wilkins IND 
-72 Jalen Richard LV 
+59.8 57 Benny Snell Jr. PIT 
+60.0 58 Darwin Thompson KC 
+61.5 59 DeAndre Washington LV 
+59.9 60 Peyton Barber WAS 
+64.8 61 Giovani Bernard CIN 
+64.9 62 Rex Burkhead NE 
+65.4 63 Ryquell Armstead JAC 
+66.5 64 Damien Harris NE 
+64.7 65 Ito Smith ATL 
+69.4 66 Dion Lewis NYG 
+71.8 67 Darrel Williams KC 
+70.3 68 Chris Thompson FA 
+74.9 69 Jalen Richard LV 
+64.5 70 Lamar Miller FA 
+72.3 71 Bo Scarbrough DET 
+70.7 72 Jordan Wilkins IND 
 Tier 8
-73 T.J. Yeldon BUF 
-74 LeSean McCoy FA 
-75 Brian Hill ATL 
-76 Mike Boone MIN 
-77 Jonathan Taylor FA 
-78 Patrick Laird MIA 
-79 D'Andre Swift FA 
-80 Bryce Love WAS 
-81 J.K. Dobbins FA 
-82 Wayne Gallman NYG 
-83 Jerick McKinnon SF 
-84 Travis Homer SEA 
-85 Dare Ogunbowale TB 
-86 Myles Gaskin MIA 
-87 Qadree Ollison ATL 
-88 Cam Akers FA 
-89 Clyde Edwards-Helaire FA 
-90 Kalen Ballage MIA 
-91 Ty Montgomery FA 
-92 Mike Davis CAR 
-93 Reggie Bonnafon CAR 
-94 Ty Johnson DET 
-95 Bilal Powell FA 
-96 Dexter Williams GB 
-97 Trayveon Williams CIN 
+77.8 73 T.J. Yeldon BUF 
+70.9 74 LeSean McCoy FA 
+76.0 75 Brian Hill ATL 
+74.6 76 Mike Boone MIN 
+39.2 77 Jonathan Taylor FA 
+78.8 78 Patrick Laird MIA 
+47.1 79 D'Andre Swift FA 
+79.5 80 Bryce Love WAS 
+47.6 81 J.K. Dobbins FA 
+82.3 82 Wayne Gallman NYG 
+84.4 83 Jerick McKinnon SF 
+81.5 84 Travis Homer SEA 
+85.7 85 Dare Ogunbowale TB 
+81.7 86 Myles Gaskin MIA 
+84.5 87 Qadree Ollison ATL 
+52.4 88 Cam Akers FA 
+59.6 89 Clyde Edwards-Helaire FA 
+89.2 90 Kalen Ballage MIA 
+89.5 91 Ty Montgomery FA 
+90.1 92 Mike Davis CAR 
+94.7 93 Reggie Bonnafon CAR 
+93.1 94 Ty Johnson DET 
+93.3 95 Bilal Powell FA 
+95.4 96 Dexter Williams GB 
+96.1 97 Trayveon Williams CIN 
 Tier 9
-98 Jeff Wilson SF 
-99 Frank Gore FA 
-100 A.J. Dillon FA 
-101 Zack Moss FA 
-102 Corey Clement FA 
-103 Dontrell Hilliard CLE 
-104 Kerrith Whyte Jr. PIT 
-105 Devontae Booker DEN 
-106 Kyle Juszczyk SF 
-107 Ke'Shawn Vaughn FA 
-108 C.J. Anderson FA 
-109 Eno Benjamin FA 
-110 Darrynton Evans FA 
-111 Rodney Anderson CIN 
-112 Anthony McFarland Jr. FA 
-113 John Kelly LAR 
-114 Jonathan Williams IND 
-115 Antonio Gibson FA 
+93.4 98 Jeff Wilson SF 
+90.4 99 Frank Gore FA 
+74.4 100 A.J. Dillon FA 
+77.6 101 Zack Moss FA 
+96.9 102 Corey Clement FA 
+99.8 103 Dontrell Hilliard CLE 
+98.7 104 Kerrith Whyte Jr. PIT 
+104.6 105 Devontae Booker DEN 
+101.8 106 Kyle Juszczyk SF 
+62.8 107 Ke'Shawn Vaughn FA 
+100.9 108 C.J. Anderson FA 
+74.3 109 Eno Benjamin FA 
+74.0 110 Darrynton Evans FA 
+94.8 111 Rodney Anderson CIN 
+78.0 112 Anthony McFarland Jr. FA 
+81.3 113 John Kelly LAR 
+95.3 114 Jonathan Williams IND 
+85.7 115 Antonio Gibson FA 
 Tier 10
-116 Joshua Kelley FA 
-117 James Robinson FA 
-118 Isaiah Crowell FA 
-119 J.D. McKissic WAS 
-120 J.J. Taylor FA 
-121 Lamical Perine FA 
-122 DeeJay Dallas FA 
-123 Rico Dowdle FA 
-124 Wendell Smallwood WAS 
-125 Spencer Ware KC 
-126 Javorius Allen NYG 
-127 Trey Edmunds PIT 
+79.5 116 Joshua Kelley FA 
+80.0 117 James Robinson FA 
+82.5 118 Isaiah Crowell FA 
+86.5 119 J.D. McKissic WAS 
+92.0 120 J.J. Taylor FA 
+95.5 121 Lamical Perine FA 
+96.5 122 DeeJay Dallas FA 
+114.5 123 Rico Dowdle FA 
+120.5 124 Wendell Smallwood WAS 
+128.0 125 Spencer Ware KC 
+128.0 126 Javorius Allen NYG 
+133.0 127 Trey Edmunds PIT 

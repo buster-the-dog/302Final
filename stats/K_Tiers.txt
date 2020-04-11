@@ -1,40 +1,40 @@
 
 Tier 1
-1 Justin Tucker BAL 
-2 Harrison Butker KC 
-3 Wil Lutz NO 
+1.5 1 Justin Tucker BAL 
+1.6 2 Harrison Butker KC 
+3.0 3 Wil Lutz NO 
 Tier 2
-4 Greg Zuerlein DAL 
-5 Robbie Gould SF 
-6 Matt Gay TB 
-7 Matt Prater DET 
-8 Zane Gonzalez ARI 
+4.4 4 Greg Zuerlein DAL 
+5.2 5 Robbie Gould SF 
+6.6 6 Matt Gay TB 
+7.2 7 Matt Prater DET 
+9.4 8 Zane Gonzalez ARI 
 Tier 3
-9 Michael Badgley LAC 
-10 Ka'imi Fairbairn HOU 
-11 Jake Elliott PHI 
-12 Mason Crosby GB 
-13 Dan Bailey MIN 
-14 Joey Slye CAR 
-15 Brandon McManus DEN 
-16 Younghoe Koo ATL 
-17 Jason Myers SEA 
+10.5 9 Michael Badgley LAC 
+11.1 10 Ka'imi Fairbairn HOU 
+13.5 11 Jake Elliott PHI 
+12.9 12 Mason Crosby GB 
+14.7 13 Dan Bailey MIN 
+15.4 14 Joey Slye CAR 
+15.6 15 Brandon McManus DEN 
+15.9 16 Younghoe Koo ATL 
+15.9 17 Jason Myers SEA 
 Tier 4
-18 Chris Boswell PIT 
-19 Stephen Gostkowski FA 
-20 Stephen Hauschka BUF 
-21 Josh Lambo JAC 
-22 Brett Maher NYJ 
-23 Austin Seibert CLE 
+17.6 18 Chris Boswell PIT 
+13.3 19 Stephen Gostkowski FA 
+18.5 20 Stephen Hauschka BUF 
+19.6 21 Josh Lambo JAC 
+21.9 22 Brett Maher NYJ 
+22.5 23 Austin Seibert CLE 
 Tier 5
-24 Aldrick Rosas NYG 
-25 Daniel Carlson LV 
-26 Kai Forbath DAL 
-27 Chase McLaughlin IND 
-28 Adam Vinatieri FA 
-29 Dustin Hopkins WAS 
-30 Randy Bullock CIN 
-31 Eddy Pineiro CHI 
-32 Jason Sanders MIA 
-33 Ryan Succop FA 
-34 Greg Joseph TEN 
+24.7 24 Aldrick Rosas NYG 
+26.1 25 Daniel Carlson LV 
+24.1 26 Kai Forbath DAL 
+20.4 27 Chase McLaughlin IND 
+27.1 28 Adam Vinatieri FA 
+27.6 29 Dustin Hopkins WAS 
+27.4 30 Randy Bullock CIN 
+27.8 31 Eddy Pineiro CHI 
+28.2 32 Jason Sanders MIA 
+25.3 33 Ryan Succop FA 
+23.0 34 Greg Joseph TEN 

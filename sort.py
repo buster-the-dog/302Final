@@ -14,7 +14,10 @@ class Player:
         self.posTier = 0
         self.position = ""
         self.pastPosRank = 0
-        self.newPosRank = 0
+        self.newPosRank = 500
+        self.avgRank = 500
+        self.avgPosRank = 500
+        self.composite = 10000.0    # this is the money number that figures out a player's actual value
     
 class QB(Player):
     def __init__(self):
@@ -80,6 +83,43 @@ class Defense(Player):
         self.rushYPG = 0.0
         self.safety = 0
         self.kickTD = 0
+
+# this global dict is a look up table to get the abbreviations for defenses, which
+# are given in one website as the teams entire name, so that a team's abbr. is always its name
+teams = {
+    '49ers' : 'SF',
+    'Steelers' : 'PIT',
+    'Ravens' : 'BAL',
+    'Bills' : 'BUF',
+    'Patriots' : 'NE',
+    'Rams' : 'LAR',
+    'Bears' : 'CHI',
+    'Chiefs' : 'KC',
+    'Vikings' : 'MIN',
+    'Saints' : 'NO',
+    'Chargers' : 'LAC',
+    'Broncos' : 'DEN',
+    'Jets' : 'NYJ',
+    'Eagles' : 'PHI',
+    'Seahawks' : 'SEA',
+    'Titans' : 'TEN',
+    'Packers' : 'GB',
+    'Cowboys' : 'DAL',
+    'Colts' : 'IND',
+    'Buccaneers' : 'TB',
+    'Browns' : 'CLE',
+    'Texans' : 'HOU',
+    'Jaguars' : 'JAC',
+    'Falcons' : 'ATL',
+    'Redskins' : 'WAS',
+    'Panthers' : 'CAR',
+    'Lions' : 'DET',
+    'Raiders' : 'LV',
+    'Giants' : 'NYG',
+    'Dolphins' : 'MIA',
+    'Cardinals' : 'ARI',
+    'Bengals' : 'CIN'
+}
 
 def ReadQB(players):
     f = open("stats/QBs.txt", "r")
@@ -327,7 +367,7 @@ def ReadK(players):
 
     return players, Ks
 
-"""
+
 def ReadDEF(players):
     f = open("stats/DEFs.txt", 'r')
 
@@ -345,16 +385,21 @@ def ReadDEF(players):
 
             # special case here since some teams names are long
             if(len(words) == 16):
-                p.name = words[1] + ' ' + words[2] + ' ' + words[3]
+                name = words[1] + ' ' + words[2] + ' ' + words[3]
                 
                 # this deletes a value so the rest of the read can go normally
                 del words[3]
             else:
-                p.name = words[1] + ' ' + words[2]
+                name = words[1] + ' ' + words[2]
             
+            # here we access the look up table declared to get the abbreviation
+            name = name.split()
+            name = teams[name[len(name)-1]]
+
+            p.name = name
             p.games = words[3]
-            p.pastPoints = [13]
-            p.pastPPG = [14]
+            p.pastPoints = words[13]
+            p.pastPPG = words[14]
 
             players[p.name] = p
 
@@ -376,7 +421,7 @@ def ReadDEF(players):
     
     f.close()
     return players, DEFs
-"""
+
 
 def PosTiers(filename, players, posdict, position):
     f = open(filename, 'r')
@@ -389,26 +434,30 @@ def PosTiers(filename, players, posdict, position):
         if len(words) == 0:
             pass
         elif 'Tier' in line:
-            tier = words[1]
+            tier = int(words[1])
         
         else:
+            # assign avg
+            avg = float(words[0])
             # assign rank
-            rank = int(words[0])
+            rank = int(words[1])
             
             # assign name
-            if len(words) == 5:
-                name = words[1] + ' ' + words[2] + ' ' + words[3]
+            if len(words) == 6:
+                name = words[2] + ' ' + words[3] + ' ' + words[4]
             else:
-                name = words[1] + ' ' + words[2]
+                name = words[2] + ' ' + words[3]
 
             # see if player is in dict already
             if name in players:
                 players[name].newPosRank = rank
                 players[name].posTier = tier
+                players[name].avgPosRank = avg
                 
                 if name in posdict:
                     posdict[name].newPosRank = rank
                     posdict[name].posTier = tier
+                    posdict[name].avgPosRank = avg
             
             # try removing suffix
             elif len(name.split()) == 3:
@@ -417,9 +466,11 @@ def PosTiers(filename, players, posdict, position):
                 if name in players:
                     players[name].newPosRank = rank
                     players[name].posTier = tier
+                    players[name].avgPosRank = avg
                 if name in posdict:
                     posdict[name].newPosRank = rank
                     posdict[name].posTier = tier
+                    posdict[name].avgPosRank = avg
 
             # try removing punctuation
             elif '.' in name:
@@ -429,9 +480,11 @@ def PosTiers(filename, players, posdict, position):
                 if name in players:
                     players[name].newPosRank = rank
                     players[name].posTier = tier
+                    players[name].avgPosRank = avg
                 if name in posdict:
                     posdict[name].newPosRank = rank
                     posdict[name].posTier = tier
+                    posdict[name].avgPosRank = avg
 
 
             # annoying case for mitchell Trubisky
@@ -440,9 +493,11 @@ def PosTiers(filename, players, posdict, position):
                 if name in players:
                     players[name].newPosRank = rank
                     players[name].posTier = tier
+                    players[name].avgPosRank = avg
                 if name in posdict:
                     posdict[name].newPosRank = rank
                     posdict[name].posTier = tier
+                    posdict[name].avgPosRank = avg
             
             # nothing worked
             else:
@@ -452,6 +507,7 @@ def PosTiers(filename, players, posdict, position):
                 p.newPosRank = rank
                 p.posTier = tier
                 p.proTeam = words[len(words)-1]
+                p.avgPosRank = avg
                 players[p.name] = p
 
                 if position == 'QB':
@@ -472,11 +528,10 @@ def PosTiers(filename, players, posdict, position):
     return players, posdict
             
 # made Def tiers a separate function because it would make the above function too clunky
-def DEFTiers(players):
+def DEFTiers(players, DEFs):
     f = open("stats/DEF_Tiers.txt", 'r')
 
     words = []
-    DEFs = {}
 
     for line in f:
         words = line.split()
@@ -484,14 +539,26 @@ def DEFTiers(players):
         if len(words) == 0:
             pass
         elif 'Tier' in line:
-            tier = words[1]
+            tier = int(words[1])
         else:
-            rank = int(words[0])
+            avg = float(words[0])
+            rank = int(words[1])
             name = words[len(words)-1]
 
             name = name.replace('(', '')
             name = name.replace(')', '')
+            
+            players[name].newPosRank = rank
+            players[name].proTeam = name
+            players[name].posTier = tier
+            players[name].avgPosRank = avg
 
+            DEFs[name].newPosRank = rank
+            DEFs[name].proTeam = name
+            DEFs[name].posTier = tier
+            DEFs[name].avgPosRank = avg
+            
+            """
             p = Player()
             p.name = name
             p.newPosRank = rank
@@ -499,12 +566,14 @@ def DEFTiers(players):
             p.proTeam = name
             p.posTier = tier
             p.games = 16
+            p.avgPosRank = avg
 
             players[p.name] = p
 
             d = Defense()
             d.__dict__ = p.__dict__
             DEFs[d.name] = d
+            """
 
     f.close()
     return players, DEFs
@@ -523,19 +592,20 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
         if len(words) == 0:
             pass
         elif 'Tier' in words:
-            tier = words[1]
+            tier = int(words[1])
         else:
-            rank = int(words[0])
+            avg = float(words[0])
+            rank = int(words[1])
 
             # figure out name length
             # the ( ) case is for defenses
             if '(' in line:
                 name = words[len(words)-1]
-            elif len(words) == 5:
-                name = words[1] + ' ' + words[2] + ' ' + words[3]
-                del words[3]
+            elif len(words) == 6:
+                name = words[2] + ' ' + words[3] + ' ' + words[4]
+                del words[4]
             else:
-                name = words[1] + ' ' + words[2]
+                name = words[2] + ' ' + words[3]
             
             # get rid of ( ) in defenses name
             if '(' in name:
@@ -546,6 +616,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
             if name in players:
                 players[name].projRank = rank
                 players[name].tier = tier
+                players[name].avgRank = avg
             
             # try removing suffix
             elif len(name.split()) == 3:
@@ -554,6 +625,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 if name in players:
                     players[name].projRank = rank
                     players[name].tier = tier
+                    players[name].avgRank = avg
 
             # try removing punctuation
             elif '.' in name:
@@ -563,6 +635,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 if name in players:
                     players[name].projRank = rank
                     players[name].tier = tier
+                    players[name].avgRank = avg
 
 
             # annoying case for mitchell Trubisky
@@ -571,6 +644,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 if name in players:
                     players[name].projRank = rank
                     players[name].tier = tier
+                    players[name].avgRank = avg
             
             # nothing worked
             else:
@@ -578,26 +652,33 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 p.name = name
                 p.projRank = rank
                 p.tier = tier
+                p.avgRank = avg
                 players[p.name] = p
 
             if name in QBs:
                 QBs[name].projRank = rank
                 QBs[name].tier = tier
+                QBs[name].avgRank = avg
             elif name in RBs:
                 RBs[name].projRank = rank
                 RBs[name].tier = tier
+                RBs[name].avgRank = avg
             elif name in WRs:
                 WRs[name].projRank = rank
                 WRs[name].tier = tier
+                WRs[name].avgRank = avg
             elif name in TEs:
                 TEs[name].projRank = rank
                 TEs[name].tier = tier
+                TEs[name].avgRank = avg
             elif name in  DEFs:
                 DEFs[name].projRank = rank
                 DEFs[name].tier = tier
+                DEFs[name].avgRank = avg
             elif name in Ks:
                 Ks[name].projRank = rank
                 Ks[name].tier = tier
+                Ks[name].avgRank = avg
 
     f.close()
     return players, QBs, RBs, WRs, TEs, Ks, DEFs
@@ -610,25 +691,30 @@ players, RBs = ReadRB(players)
 players, WRs = ReadWR(players)
 players, TEs = ReadTE(players)
 players, Ks = ReadK(players)
-#players, DEFs = ReadDEF(players)
+players, DEFs = ReadDEF(players)
 #players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadRank(players, QBs, RBs, WRs, TEs, Ks, DEFs)
 players, QBs = PosTiers("stats/QB_Tiers.txt", players, QBs, "QB")
 players, RBs = PosTiers("stats/RB_Tiers.txt", players, RBs, "RB")
 players, WRs = PosTiers("stats/WR_Tiers.txt", players, WRs, "WR")
 players, TEs = PosTiers("stats/TE_Tiers.txt", players, TEs, "TE")
 players, Ks = PosTiers("stats/K_Tiers.txt", players, Ks, "K")
-players, DEFs = DEFTiers(players)
+players, DEFs = DEFTiers(players, DEFs)
 players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
 
+
 """
+for player in players.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
 available = defaultdict(list)
 
 for player in players.values():
-    available[player.newPosRank].append(player)
+    available[player.composite].append(player)
 
 available = OrderedDict(sorted(available.items()))
 for vals in available.values():
     for player in vals:
-        if player.position == "DEF":
-            print(str(player.newPosRank) + ' ' + player.name + ' ' + str(player.projRank))
+        if player.composite != 10000:
+            print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))
 """

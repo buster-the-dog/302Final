@@ -87,8 +87,24 @@ def FutureTiers(url, filename):
 
   # this gets all the players names and what tier, prints to file
   rows = soup.find_all(class_=['full-name', 'grey', 'sticky-cell sticky-cell-one'])
+
+  # this find all gets the avg ranking of each player
+  numbers = soup.find_all(class_='view-options ranks')
   #player = soup.find_all(class_='full-name')
   
+  avgs = []
+
+  i = 2
+  for avg in numbers:
+    if avg.text.replace('.','').isnumeric():
+      if i % 4 == 0:
+        avgs.append(avg.text)
+        i += 1
+      else:
+        i += 1
+
+
+  i = 0
   for row in rows:
     if 'Tier' in row.text:
       f.write('\n')
@@ -96,10 +112,13 @@ def FutureTiers(url, filename):
     else:
       if row.text.isnumeric():
         f.write('\n')
+        f.write(avgs[i])
+        f.write(' ')
+        i += 1
       f.write(row.text + ' ')
   
   f.close()
-    
+
 
 # will remain commented out until websites are fixed
 """
@@ -119,7 +138,7 @@ def SoS(url, filename):
 
 
 # main begins here
-'''
+
 # make function calls here
 # first, QBs
 # also, this website has multiple pages, so we call the same function with multiple websites
@@ -156,7 +175,7 @@ PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID
 # DEFs
 os.remove("stats/DEFs.txt")
 PastStats("https://fftoday.com/stats/playerstats.php?Season=2019&GameWeek=&PosID=99&LeagueID=26955", "DEFs.txt", "DEF")
-'''
+
 # List of Players 1-311 in tiers
 FutureTiers("https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php", "Tiers.txt")
 
