@@ -1,31 +1,31 @@
-import requests
-import bs4
-from bs4 import BeautifulSoup
-from requests_html import HTMLSession
-import os
+import requests                 # used to access websites
+from bs4 import BeautifulSoup   # used to parse html data
+import os                       # used to delete files
 
 # function that gets stats of players from 2019-2020
 def PastStats(url, filename, position):
   
   filename = "stats/" + filename
-  f = open(filename, "a+")
+  f = open(filename, "a+")        # opened in append mode because function is called for multiple pages of same position
   players = []
-  mod = 0       #figures out modulus for printing purposes
+  mod = 0                         # figures out modulus for printing purposes
 
-  #goes to the website
+  # goes to the website
   page = requests.get(url)
 
-  #puts content into soup
+  # puts content into soup
   soup = BeautifulSoup(page.text, 'html.parser')
 
-  #sorts through soup to find necessary info
+  # sorts through soup to find necessary info
   rows = (soup.find_all(class_='sort1'))
 
+  # gets the actual string text from the website
   for row in rows:
     for string in row.strings:
       players.append(string)
       
   # figure out what position it is for printing purposes
+  # basically, each position has different amounts of data, this fixes that
   if position == "QB" or position == "DEF":
     mod = 14
   elif position == "RB" or position == "WR":
@@ -38,6 +38,7 @@ def PastStats(url, filename, position):
     print("Bad Position")
     return -1
   
+  # this prints out one player and all of his data on a single line, then goes to the next
   count = 0
   for obj in players:
     if count % mod == 0:
@@ -45,39 +46,12 @@ def PastStats(url, filename, position):
     
     f.write(obj + " ")
     count = count + 1
-
-
-def FutureRankings(url, filename):
-
-  #this opens the file
-  filename = "stats/" + filename
-  f = open(filename, "w")
-
-  #this one can't use BS because the table is generated with javascript,
-  #so requests_html is used instead to simulate an HTML session
-  session = HTMLSession()
-  r = session.get(url)
-  r.html.render()
-
-  # this creates a list of players
-  players = [element.text for element in r.html.find('td a')]
-  
-
-  # empty strings are put into this list, so here I remove them
-  realPlayers = []
-
-  for player in players:
-    if player != '':
-      realPlayers.append(player)
-
-  # write to file
-  i = 1
-  for player in realPlayers:
-    f.write(player + ' ' + str(i) + '\n')
-    i += 1
+  f.close()
 
 # function to get players in tiers
 def FutureTiers(url, filename):
+  
+  # grab the page and parse the data into soup
   page = requests.get(url)
   soup = BeautifulSoup(page.text, 'html.parser')
 
@@ -85,15 +59,16 @@ def FutureTiers(url, filename):
 
   f = open(filename, "w")
 
-  # this gets all the players names and what tier, prints to file
+  # this gets all the players names and their tier and prints to file
   rows = soup.find_all(class_=['full-name', 'grey', 'sticky-cell sticky-cell-one'])
 
   # this find all gets the avg ranking of each player
   numbers = soup.find_all(class_='view-options ranks')
-  #player = soup.find_all(class_='full-name')
   
   avgs = []
 
+  # this code block takes all objects in numbers and only keeps those that are the averages
+  # % 4 is used because there are 4 pieces of data per player, but I only want the average
   i = 2
   for avg in numbers:
     if avg.text.replace('.','').isnumeric():
@@ -104,12 +79,14 @@ def FutureTiers(url, filename):
         i += 1
 
 
+  # actually prints to file
   i = 0
   for row in rows:
     if 'Tier' in row.text:
       f.write('\n')
       f.write(row.text)
     else:
+      # if row.text is numeric, then it's a new player, so I start a new line
       if row.text.isnumeric():
         f.write('\n')
         f.write(avgs[i])
@@ -186,10 +163,6 @@ FutureTiers("https://www.fantasypros.com/nfl/rankings/wr-cheatsheets.php", "WR_T
 FutureTiers("https://www.fantasypros.com/nfl/rankings/te-cheatsheets.php", "TE_Tiers.txt")
 FutureTiers("https://www.fantasypros.com/nfl/rankings/k-cheatsheets.php", "K_Tiers.txt")
 FutureTiers("https://www.fantasypros.com/nfl/rankings/dst-cheatsheets.php", "DEF_Tiers.txt")
-
-
-# Basic list of players 1-311
-#FutureRankings("http://partners.fantasypros.com/external/widget/fp-widget.php?height=800px&width=100%25&thead_color=%23ffffff&thead_font=%23000000&t_alt_row=%23fafafa&link_color=%233778be&pill_color=%232881eb&sport=NFL&wtype=preseason&filters=&scoring=HALF&expert=769&affiliate_code=&year=2020&week=0&auction=false&Notes=false&tags=false&cards=true&format=table&promo_link=false&positions=QB%3ADST%3AK&ppr_positions=&half_positions=ALL%3ARB%3AWR%3ATE&site=&fd_aff=&dk_aff=&fa_aff=&dp_aff=&", "ranks.txt")
 
 # Below will be strength of schedule websites, but they're currently broken
 # so will be added later

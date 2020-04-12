@@ -20,7 +20,7 @@ Tier 3
 16.0 16 Chris Carson SEA 
 Tier 4
 17.7 17 Marlon Mack IND 
-18.8 18 Mark Ingram II BAL 
+18.7 18 Mark Ingram II BAL 
 19.3 19 Devin Singletary BUF 
 19.8 20 Melvin Gordon DEN 
 21.5 21 Le'Veon Bell NYJ 

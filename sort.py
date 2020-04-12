@@ -1,5 +1,5 @@
-from collections import OrderedDict
-from collections import defaultdict
+from collections import OrderedDict     # to sort by key
+from collections import defaultdict     # to easily make a dictionary of lists
 
 # here are all of the class definitions
 class Player:
@@ -19,6 +19,7 @@ class Player:
         self.avgPosRank = 500
         self.composite = 10000.0    # this is the money number that figures out a player's actual value
     
+# all position classes are inherited from player so they have all the values in the player class
 class QB(Player):
     def __init__(self):
         super().__init__()
@@ -85,7 +86,7 @@ class Defense(Player):
         self.kickTD = 0
 
 # this global dict is a look up table to get the abbreviations for defenses, which
-# are given in one website as the teams entire name, so that a team's abbr. is always its name
+# are given in one website as the team's entire name, so that a team's abbr. is always its name
 teams = {
     '49ers' : 'SF',
     'Steelers' : 'PIT',
@@ -121,6 +122,7 @@ teams = {
     'Bengals' : 'CIN'
 }
 
+# this function reads QBs.txt and sorts stats from 2019-2020 Quarterbacks
 def ReadQB(players):
     f = open("stats/QBs.txt", "r")
 
@@ -133,6 +135,7 @@ def ReadQB(players):
         words = line.split()
         if len(words) != 0:
 
+            # create a new Player and fill in relevant data
             p = Player()
 
             p.position = "QB"
@@ -169,17 +172,18 @@ def ReadQB(players):
             q.rushTD = words[12]
 
             QBs[q.name] = q
-            #print(q.__dict__)
+
     f.close()
-    
     return players, QBs
 
+# This function behaves similarly to ReadQB, except for RBs
 def ReadRB(players):
     f = open("stats/RBs.txt", "r")
 
     words = []
     RBs = {}
 
+    # iterate through the file
     for line in f:
         words.clear()
         words = line.split()
@@ -221,11 +225,10 @@ def ReadRB(players):
 
             RBs[r.name] = r
 
-            #print(r.__dict__)
     f.close()
-    
     return players, RBs
 
+# same as above, but with WRs
 def ReadWR(players):
     f = open("stats/WRs.txt", 'r')
     
@@ -275,6 +278,7 @@ def ReadWR(players):
     f.close()
     return players, WRs
 
+# same as above
 def ReadTE(players):
     f = open("stats/TEs.txt", 'r')
 
@@ -316,10 +320,11 @@ def ReadTE(players):
             te.recTD = words[8]
 
             TEs[te.name] = te
+    
     f.close()
-
     return players, TEs
 
+# same as above
 def ReadK(players):
     f = open("stats/Ks.txt", 'r')
 
@@ -364,10 +369,9 @@ def ReadK(players):
             Ks[k.name] = k
 
     f.close()
-
     return players, Ks
 
-
+#same as above
 def ReadDEF(players):
     f = open("stats/DEFs.txt", 'r')
 
@@ -423,6 +427,8 @@ def ReadDEF(players):
     return players, DEFs
 
 
+# this function figures out what tier the player is in by position
+# as well as the players rank compared to others at his position
 def PosTiers(filename, players, posdict, position):
     f = open(filename, 'r')
 
@@ -431,11 +437,15 @@ def PosTiers(filename, players, posdict, position):
     for line in f:
         words = line.split()
 
+        # handles blank line cases
         if len(words) == 0:
             pass
+
+        # a line with just "tier x" in it indicates a new tier, this assigns it and moves on
         elif 'Tier' in line:
             tier = int(words[1])
         
+        # if this else block occurs, the line is an actual player
         else:
             # assign avg
             avg = float(words[0])
@@ -454,6 +464,7 @@ def PosTiers(filename, players, posdict, position):
                 players[name].posTier = tier
                 players[name].avgPosRank = avg
                 
+                # checks position specific dict
                 if name in posdict:
                     posdict[name].newPosRank = rank
                     posdict[name].posTier = tier
@@ -487,7 +498,8 @@ def PosTiers(filename, players, posdict, position):
                     posdict[name].avgPosRank = avg
 
 
-            # annoying case for mitchell Trubisky
+            # annoying case for Mitchell Trubisky
+            # one website calls him "Mitch" instead of Mitchell
             elif 'Mitch' in name:
                 name = "Mitchell Trubisky"
                 if name in players:
@@ -499,7 +511,7 @@ def PosTiers(filename, players, posdict, position):
                     posdict[name].posTier = tier
                     posdict[name].avgPosRank = avg
             
-            # nothing worked
+            # nothing worked, so create a new player
             else:
                 p = Player()
                 p.name = name
@@ -536,15 +548,22 @@ def DEFTiers(players, DEFs):
     for line in f:
         words = line.split()
 
+        # handles empty line
         if len(words) == 0:
             pass
+        
+        # handles line that indicates a new tier
         elif 'Tier' in line:
             tier = int(words[1])
+        
+        # handles player line
         else:
             avg = float(words[0])
             rank = int(words[1])
             name = words[len(words)-1]
 
+            # Defenses name on this website look like (SF),
+            # so we take out the parantheses to get the abbr.
             name = name.replace('(', '')
             name = name.replace(')', '')
             
@@ -557,30 +576,11 @@ def DEFTiers(players, DEFs):
             DEFs[name].proTeam = name
             DEFs[name].posTier = tier
             DEFs[name].avgPosRank = avg
-            
-            """
-            p = Player()
-            p.name = name
-            p.newPosRank = rank
-            p.position = "DEF"
-            p.proTeam = name
-            p.posTier = tier
-            p.games = 16
-            p.avgPosRank = avg
-
-            players[p.name] = p
-
-            d = Defense()
-            d.__dict__ = p.__dict__
-            DEFs[d.name] = d
-            """
 
     f.close()
     return players, DEFs
 
-
-
-
+# Reads in the overall Tier of all players
 def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
     f = open(filename, 'r')
 
@@ -589,10 +589,15 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
     for line in f:
         words = line.split()
 
+        # handles empty lines
         if len(words) == 0:
             pass
+        
+        # handles new Tier
         elif 'Tier' in words:
             tier = int(words[1])
+        
+        # handles player info
         else:
             avg = float(words[0])
             rank = int(words[1])
@@ -655,6 +660,9 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 p.avgRank = avg
                 players[p.name] = p
 
+
+            # at this point, name is either correct or it's not worth
+            # creating a specific position as it won't have most data
             if name in QBs:
                 QBs[name].projRank = rank
                 QBs[name].tier = tier
@@ -684,15 +692,16 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
     return players, QBs, RBs, WRs, TEs, Ks, DEFs
 
 
+# creates empty players dictionary
 players = {}
 
+# calls all functions to fill in dictionaries
 players, QBs = ReadQB(players)
 players, RBs = ReadRB(players)
 players, WRs = ReadWR(players)
 players, TEs = ReadTE(players)
 players, Ks = ReadK(players)
 players, DEFs = ReadDEF(players)
-#players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadRank(players, QBs, RBs, WRs, TEs, Ks, DEFs)
 players, QBs = PosTiers("stats/QB_Tiers.txt", players, QBs, "QB")
 players, RBs = PosTiers("stats/RB_Tiers.txt", players, RBs, "RB")
 players, WRs = PosTiers("stats/WR_Tiers.txt", players, WRs, "WR")
@@ -701,7 +710,7 @@ players, Ks = PosTiers("stats/K_Tiers.txt", players, Ks, "K")
 players, DEFs = DEFTiers(players, DEFs)
 players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
 
-
+# some printing for testing
 """
 for player in players.values():
     if player.avgPosRank != 500 and player.avgRank != 500:

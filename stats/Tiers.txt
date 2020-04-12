@@ -31,7 +31,7 @@ Tier 4
 Tier 5
 29.5 26 Odell Beckham Jr. CLE 
 30.1 27 Miles Sanders PHI 
-30.9 28 D.J. Moore CAR 
+31.0 28 D.J. Moore CAR 
 32.7 29 Mark Andrews BAL 
 32.7 30 Courtland Sutton DEN 
 32.9 31 Allen Robinson CHI 
@@ -44,7 +44,7 @@ Tier 5
 39.8 38 Marlon Mack IND 
 41.3 39 Adam Thielen MIN 
 Tier 6
-42.6 40 Mark Ingram II BAL 
+42.5 40 Mark Ingram II BAL 
 43.1 41 Keenan Allen LAC 
 44.1 42 Calvin Ridley ATL 
 44.9 43 DeVante Parker MIA 
@@ -54,40 +54,40 @@ Tier 6
 46.2 47 Tyler Lockett SEA 
 47.8 48 Robert Woods LAR 
 49.1 49 Stefon Diggs BUF 
-49.6 50 D.K. Metcalf SEA 
+49.5 50 D.K. Metcalf SEA 
 51.6 51 Le'Veon Bell NYJ 
 52.9 52 T.Y. Hilton IND 
 53.3 53 Darren Waller LV 
-56.6 54 A.J. Green CIN 
+56.4 54 A.J. Green CIN 
 56.9 55 Russell Wilson SEA 
 Tier 7
 58.0 56 Kyler Murray ARI 
 58.2 57 Damien Williams KC 
 58.3 58 James Conner PIT 
-59.6 59 D.J. Chark JAC 
-61.1 60 Terry McLaurin WAS 
-61.9 61 Michael Gallup DAL 
+59.8 59 D.J. Chark JAC 
+61.3 60 Terry McLaurin WAS 
+61.7 61 Michael Gallup DAL 
 62.2 62 Kerryon Johnson DET 
 62.6 63 Dak Prescott DAL 
 63.9 64 David Montgomery CHI 
 65.1 65 David Johnson HOU 
 66.2 66 Deshaun Watson HOU 
 67.6 67 Hunter Henry LAC 
-70.3 68 Jarvis Landry CLE 
+70.2 68 Jarvis Landry CLE 
 71.6 69 Josh Allen BUF 
 73.3 70 Deebo Samuel SF 
 74.0 71 Julian Edelman NE 
 74.3 72 Evan Engram NYG 
 77.2 73 Tyler Boyd CIN 
 Tier 8
-79.1 74 Will Fuller HOU 
+79.3 74 Will Fuller HOU 
 79.8 75 Raheem Mostert SF 
 80.8 76 Kareem Hunt CLE 
 81.0 77 John Brown BUF 
 81.6 78 Derrius Guice WAS 
 82.7 79 Phillip Lindsay DEN 
 83.4 80 Sony Michel NE 
-84.9 81 Marquise Brown BAL 
+85.0 81 Marquise Brown BAL 
 85.9 82 Aaron Rodgers GB 
 86.6 83 Ronald Jones II TB 
 87.3 84 Mike Williams LAC 
@@ -102,8 +102,8 @@ Tier 8
 98.6 93 Jordan Howard MIA 
 99.4 94 Robby Anderson CAR 
 100.7 95 Sterling Shepard NYG 
-101.3 96 Darius Slayton NYG 
-101.4 97 Darrell Henderson LAR 
+101.4 96 Darrell Henderson LAR 
+101.4 97 Darius Slayton NYG 
 101.5 98 Brandin Cooks LAR 
 102.6 99 Alshon Jeffery PHI 
 102.9 100 Emmanuel Sanders NO 
@@ -112,7 +112,7 @@ Tier 9
 106.6 102 Matthew Stafford DET 
 107.2 103 James White NE 
 108.3 104 Noah Fant DEN 
-109.1 105 Anthony Miller CHI 
+109.2 105 Anthony Miller CHI 
 111.4 106 Tevin Coleman SF 
 114.0 107 Dallas Goedert PHI 
 114.1 108 Tom Brady TB 
@@ -146,7 +146,7 @@ Tier 10
 144.9 135 Matt Breida SF 
 145.3 136 Justice Hill BAL 
 145.3 137 Jack Doyle IND 
-146.1 138 Kenny Stills HOU 
+146.2 138 Kenny Stills HOU 
 146.6 139 Boston Scott PHI 
 147.6 140 Tyrell Williams LV 
 147.8 141 Eric Ebron PIT 

@@ -18,25 +18,25 @@ Tier 3
 15.2 14 JuJu Smith-Schuster PIT 
 15.2 15 A.J. Brown TEN 
 Tier 4
-16.9 16 Cooper Kupp LAR 
+17.0 16 Cooper Kupp LAR 
 17.6 17 Adam Thielen MIN 
-19.5 18 Keenan Allen LAC 
+19.6 18 Keenan Allen LAC 
 19.7 19 Calvin Ridley ATL 
 20.5 20 DeVante Parker MIA 
 21.0 21 Tyler Lockett SEA 
 21.9 22 Robert Woods LAR 
-22.5 23 Stefon Diggs BUF 
+22.4 23 Stefon Diggs BUF 
 22.5 24 D.K. Metcalf SEA 
 23.6 25 T.Y. Hilton IND 
-24.7 26 A.J. Green CIN 
+24.6 26 A.J. Green CIN 
 Tier 5
-26.7 27 D.J. Chark JAC 
-26.7 28 Terry McLaurin WAS 
-27.4 29 Michael Gallup DAL 
+26.7 27 Terry McLaurin WAS 
+26.8 28 D.J. Chark JAC 
+27.3 29 Michael Gallup DAL 
 31.3 30 Jarvis Landry CLE 
 32.1 31 Deebo Samuel SF 
 33.5 32 Julian Edelman NE 
-34.1 33 Will Fuller HOU 
+34.2 33 Will Fuller HOU 
 34.3 34 Tyler Boyd CIN 
 35.8 35 John Brown BUF 
 Tier 6
