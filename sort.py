@@ -710,19 +710,73 @@ players, Ks = PosTiers("stats/K_Tiers.txt", players, Ks, "K")
 players, DEFs = DEFTiers(players, DEFs)
 players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
 
-# some printing for testing
-"""
+
+# calculate composite for each player in each dict
 for player in players.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
 
-available = defaultdict(list)
+for player in QBs.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+for player in RBs.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+for player in WRs.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+for player in TEs.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+for player in Ks.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+for player in DEFs.values():
+    if player.avgPosRank != 500 and player.avgRank != 500:
+        player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+
+# put all players into new dictionaries
+# this acts essentially as a c++ multimap, storing all players
+# with keys as composite and vals as lists of players with that composite
+bestAll = defaultdict(list)
+bestQBs = defaultdict(list)
+bestRBs = defaultdict(list)
+bestWRs = defaultdict(list)
+bestTEs = defaultdict(list)
+bestKs = defaultdict(list)
+bestDEFs = defaultdict(list)
 
 for player in players.values():
-    available[player.composite].append(player)
+    bestAll[player.composite].append(player)
+for player in players.values():
+    bestQBs[player.composite].append(player)
+for player in players.values():
+    bestRBs[player.composite].append(player)
+for player in players.values():
+    bestWRs[player.composite].append(player)
+for player in players.values():
+    bestTEs[player.composite].append(player)
+for player in players.values():
+    bestKs[player.composite].append(player)
+for player in players.values():
+    bestDEFs[player.composite].append(player)
 
-available = OrderedDict(sorted(available.items()))
-for vals in available.values():
+bestAll = OrderedDict(sorted(bestAll.items()))
+bestQBs = OrderedDict(sorted(bestQBs.items()))
+bestRBs = OrderedDict(sorted(bestRBs.items()))
+bestWRs = OrderedDict(sorted(bestWRs.items()))
+bestTEs = OrderedDict(sorted(bestTEs.items()))
+bestKs = OrderedDict(sorted(bestKs.items()))
+bestDEFs = OrderedDict(sorted(bestDEFs.items()))
+
+# some printing for testing purposes
+"""
+for vals in bestAll.values():
     for player in vals:
         if player.composite != 10000:
             print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))

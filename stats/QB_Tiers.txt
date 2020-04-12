@@ -21,15 +21,15 @@ Tier 3
 Tier 4
 17.1 17 Ben Roethlisberger PIT 
 18.1 18 Jared Goff LAR 
-19.5 19 Kirk Cousins MIN 
+19.4 19 Kirk Cousins MIN 
 20.9 20 Jimmy Garoppolo SF 
 22.1 21 Philip Rivers IND 
-23.5 22 Sam Darnold NYJ 
+23.4 22 Sam Darnold NYJ 
 24.3 23 Teddy Bridgewater CAR 
-24.5 24 Gardner Minshew II JAC 
-24.8 25 Cam Newton FA 
-26.0 26 Ryan Fitzpatrick MIA 
-27.0 27 Derek Carr LV 
+24.6 24 Gardner Minshew II JAC 
+24.9 25 Cam Newton FA 
+26.1 26 Ryan Fitzpatrick MIA 
+26.9 27 Derek Carr LV 
 27.0 28 Drew Lock DEN 
 Tier 5
 30.4 29 Dwayne Haskins WAS 
