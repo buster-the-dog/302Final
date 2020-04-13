@@ -753,17 +753,17 @@ bestDEFs = defaultdict(list)
 
 for player in players.values():
     bestAll[player.composite].append(player)
-for player in players.values():
+for player in QBs.values():
     bestQBs[player.composite].append(player)
-for player in players.values():
+for player in RBs.values():
     bestRBs[player.composite].append(player)
-for player in players.values():
+for player in WRs.values():
     bestWRs[player.composite].append(player)
-for player in players.values():
+for player in TEs.values():
     bestTEs[player.composite].append(player)
-for player in players.values():
+for player in Ks.values():
     bestKs[player.composite].append(player)
-for player in players.values():
+for player in DEFs.values():
     bestDEFs[player.composite].append(player)
 
 bestAll = OrderedDict(sorted(bestAll.items()))
