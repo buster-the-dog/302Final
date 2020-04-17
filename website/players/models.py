@@ -3,16 +3,16 @@ from django.db import models
 # Create your models here.
 # This is the base player class that all players will be based on
 class Player(models.Model):
-    team = models.ForeignKey('Team', on_delete=models.CASCADE, default = "id = 1")
+    team = models.ForeignKey('Team', on_delete=models.CASCADE, default = 1)
     first_name = models.CharField(max_length = 20)
     last_name = models.CharField(max_length = 20)
-    past_points = models.IntegerField(default = 0)
-    past_PPG = models.IntegerField(default = 0)
+    past_points = models.FloatField(default = 0)
+    past_PPG = models.FloatField(default = 0)
     projected_rank = models.IntegerField(default = 0)
     games = models.IntegerField(default = 0)
     tier = models.IntegerField(default = 0)
     pos_tier = models.IntegerField(default = 0)
-    composite = models.IntegerField(default = 0)
+    composite = models.FloatField(default = 0)
 
     def FieldList(self):
         ret = [val.value_to_string(self) for val in self._meta.get_fields()]

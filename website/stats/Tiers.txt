@@ -21,19 +21,19 @@ Tier 3
 Tier 4
 18.5 17 George Kittle SF 
 19.7 18 Josh Jacobs LV 
-20.5 19 Mike Evans TB 
+20.6 19 Mike Evans TB 
 22.7 20 Kenny Golladay DET 
 23.4 21 Lamar Jackson BAL 
 24.8 22 Amari Cooper DAL 
 25.4 23 Leonard Fournette JAC 
 26.3 24 Austin Ekeler LAC 
 26.4 25 Kenyan Drake ARI 
-29.0 26 Odell Beckham Jr. CLE 
+28.9 26 Odell Beckham Jr. CLE 
 Tier 5
 30.8 27 Miles Sanders PHI 
 31.4 28 Mark Andrews BAL 
 31.7 29 D.J. Moore CAR 
-32.8 30 Courtland Sutton DEN 
+32.7 30 Courtland Sutton DEN 
 32.8 31 Patrick Mahomes KC 
 33.1 32 Allen Robinson CHI 
 34.3 33 A.J. Brown TEN 
@@ -81,24 +81,24 @@ Tier 7
 76.8 73 Tyler Boyd CIN 
 Tier 8
 78.5 74 Raheem Mostert SF 
-79.0 75 Will Fuller HOU 
-81.6 76 John Brown BUF 
+78.8 75 Will Fuller HOU 
+81.9 76 John Brown BUF 
 83.1 77 Derrius Guice WAS 
 83.7 78 Kareem Hunt CLE 
-84.6 79 Marquise Brown BAL 
+84.7 79 Marquise Brown BAL 
 85.1 80 Sony Michel NE 
 85.8 81 Phillip Lindsay DEN 
-86.1 82 Aaron Rodgers GB 
-86.6 83 Mike Williams LAC 
-87.3 84 Drew Brees NO 
-87.8 85 Austin Hooper CLE 
-88.0 86 Tyler Higbee LAR 
-89.2 87 Jared Cook NO 
-89.8 88 Matt Ryan ATL 
-90.0 89 Ronald Jones II TB 
+86.3 82 Aaron Rodgers GB 
+86.4 83 Mike Williams LAC 
+87.2 84 Drew Brees NO 
+87.7 85 Tyler Higbee LAR 
+88.1 86 Austin Hooper CLE 
+88.8 87 Jared Cook NO 
+90.0 88 Ronald Jones II TB 
+90.2 89 Matt Ryan ATL 
 90.2 90 Christian Kirk ARI 
-90.3 91 Marvin Jones DET 
-95.1 92 Carson Wentz PHI 
+90.4 91 Marvin Jones DET 
+95.2 92 Carson Wentz PHI 
 96.4 93 Brandin Cooks HOU 
 99.9 94 Robby Anderson CAR 
 100.7 95 Darius Slayton NYG 
@@ -108,27 +108,27 @@ Tier 8
 102.7 99 Alshon Jeffery PHI 
 Tier 9
 106.1 100 Matthew Stafford DET 
-106.7 101 Darrell Henderson LAR 
-106.9 102 Latavius Murray NO 
-107.0 103 Noah Fant DEN 
+106.4 101 Noah Fant DEN 
+106.7 102 Darrell Henderson LAR 
+106.9 103 Latavius Murray NO 
 108.4 104 James White NE 
-111.4 105 Tom Brady TB 
-111.6 106 Anthony Miller CHI 
-111.6 107 Tevin Coleman SF 
-115.5 108 Dallas Goedert PHI 
+111.6 105 Anthony Miller CHI 
+111.6 106 Tevin Coleman SF 
+111.8 107 Tom Brady TB 
+115.7 108 Dallas Goedert PHI 
 116.3 109 Curtis Samuel CAR 
 118.1 110 Ryan Tannehill TEN 
 120.8 111 Jamison Crowder NYJ 
 121.5 112 Baker Mayfield CLE 
 122.3 113 Preston Williams MIA 
 123.0 114 Daniel Jones NYG 
-123.1 115 O.J. Howard TB 
+124.2 115 O.J. Howard TB 
 124.7 116 Alexander Mattison MIN 
-124.9 117 Diontae Johnson PIT 
+124.7 117 Diontae Johnson PIT 
 125.2 118 Ben Roethlisberger PIT 
-127.0 119 T.J. Hockenson DET 
+126.6 119 T.J. Hockenson DET 
 127.9 120 Jamaal Williams GB 
-129.2 121 Mike Gesicki MIA 
+129.0 121 Mike Gesicki MIA 
 129.6 122 Mecole Hardman KC 
 129.9 123 Tarik Cohen CHI 
 131.2 124 Sammy Watkins KC 
@@ -169,7 +169,7 @@ Tier 11
 163.4 157 Sam Darnold NYJ 
 170.6 158 Parris Campbell IND 
 158.7 159 Rashaad Penny SEA 
-172.5 160 Chris Herndon IV NYJ 
+172.6 160 Chris Herndon IV NYJ 
 173.6 161 Gus Edwards BAL 
 173.7 162 Nyheim Hines IND 
 173.8 163 Hunter Renfrow LV 
@@ -177,33 +177,33 @@ Tier 11
 168.8 165 Corey Davis TEN 
 162.7 166 New England (NE) 
 177.4 167 Greg Olsen SEA 
-178.5 168 Gardner Minshew II JAC 
+179.2 168 Gardner Minshew II JAC 
 168.3 169 Chicago (CHI) 
-175.3 170 Teddy Bridgewater CAR 
+175.1 170 Teddy Bridgewater CAR 
 181.8 171 Larry Fitzgerald ARI 
 171.9 172 Harrison Butker KC 
 186.1 173 Cole Beasley BUF 
 174.7 174 Justin Tucker BAL 
-184.3 175 Blake Jarwin DAL 
+184.2 175 Blake Jarwin DAL 
 186.6 176 Randall Cobb HOU 
 180.9 177 Minnesota (MIN) 
 183.1 178 Wil Lutz NO 
 176.9 179 Los Angeles (LAR) 
 190.4 180 Jaylen Samuels PIT 
-191.6 181 Irv Smith Jr. MIN 
-197.2 182 Ryan Fitzpatrick MIA 
+191.7 181 Irv Smith Jr. MIN 
+197.3 182 Ryan Fitzpatrick MIA 
 189.3 183 Greg Zuerlein DAL 
 195.7 184 Allen Lazard GB 
 202.5 185 Drew Lock DEN 
 195.2 186 David Njoku CLE 
-200.9 187 Kyle Rudolph MIN 
+201.0 187 Kyle Rudolph MIN 
 183.7 188 Will Dissly SEA 
 190.9 189 Benny Snell Jr. PIT 
 203.8 190 Derek Carr LV 
 199.2 191 New Orleans (NO) 
 194.2 192 Kansas City (KC) 
-189.8 193 Cam Newton FA 
 Tier 12
+191.0 193 Cam Newton FA 
 197.6 194 DeAndre Washington LV 
 205.0 195 Robbie Gould SF 
 194.7 196 Darwin Thompson KC 
@@ -236,9 +236,9 @@ Tier 12
 241.8 223 Jake Elliott PHI 
 227.1 224 Stephen Gostkowski FA 
 228.2 225 Jameis Winston FA 
-235.4 226 Gerald Everett LAR 
+235.5 226 Gerald Everett LAR 
 218.7 227 Devin Funchess GB 
-235.9 228 Vance McDonald PIT 
+236.2 228 Vance McDonald PIT 
 241.8 229 Cleveland (CLE) 
 246.6 230 Brandon McManus DEN 
 247.6 231 Joey Slye CAR 
@@ -251,8 +251,8 @@ Tier 13
 249.5 237 Mitch Trubisky CHI 
 237.0 238 Miles Boykin BAL 
 234.6 239 Chris Thompson FA 
-217.4 240 Lamar Miller FA 
-251.3 241 Jimmy Graham CHI 
+251.0 240 Jimmy Graham CHI 
+217.4 241 Lamar Miller FA 
 251.5 242 Cameron Brate TB 
 230.7 243 Nelson Agholor LV 
 247.3 244 Zach Pascal IND 
