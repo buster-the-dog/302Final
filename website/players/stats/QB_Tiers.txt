@@ -1,0 +1,67 @@
+
+Tier 1
+1.3 1 Lamar Jackson BAL 
+1.7 2 Patrick Mahomes KC 
+3.9 3 Russell Wilson SEA 
+4.1 4 Kyler Murray ARI 
+Tier 2
+5.3 5 Dak Prescott DAL 
+5.9 6 Deshaun Watson HOU 
+7.0 7 Josh Allen BUF 
+9.4 8 Aaron Rodgers GB 
+Tier 3
+9.7 9 Drew Brees NO 
+9.9 10 Matt Ryan ATL 
+10.9 11 Carson Wentz PHI 
+13.1 12 Matthew Stafford DET 
+14.0 13 Tom Brady TB 
+15.5 14 Ryan Tannehill TEN 
+15.6 15 Baker Mayfield CLE 
+16.3 16 Daniel Jones NYG 
+Tier 4
+17.1 17 Ben Roethlisberger PIT 
+18.1 18 Jared Goff LAR 
+19.4 19 Kirk Cousins MIN 
+20.9 20 Jimmy Garoppolo SF 
+22.1 21 Philip Rivers IND 
+23.4 22 Sam Darnold NYJ 
+24.3 23 Teddy Bridgewater CAR 
+24.6 24 Gardner Minshew II JAC 
+24.9 25 Cam Newton FA 
+26.1 26 Ryan Fitzpatrick MIA 
+26.9 27 Derek Carr LV 
+27.0 28 Drew Lock DEN 
+Tier 5
+30.4 29 Dwayne Haskins WAS 
+27.0 30 Jameis Winston FA 
+32.1 31 Nick Foles CHI 
+30.3 32 Mitch Trubisky CHI 
+29.5 33 Tyrod Taylor LAC 
+33.7 34 Andy Dalton CIN 
+34.8 35 Jacoby Brissett IND 
+36.8 36 Marcus Mariota LV 
+Tier 6
+24.8 37 Joe Burrow FA 
+35.4 38 Jarrett Stidham NE 
+35.2 39 Tua Tagovailoa FA 
+39.1 40 Taysom Hill NO 
+38.0 41 Justin Herbert FA 
+43.4 42 Joe Flacco FA 
+41.3 43 Case Keenum CLE 
+43.2 44 Josh Rosen MIA 
+41.6 45 Jalen Hurts FA 
+42.4 46 Nick Mullens SF 
+42.0 47 Jordan Love FA 
+Tier 7
+44.3 48 Kyle Allen WAS 
+49.8 49 Will Grier CAR 
+47.7 50 Jacob Eason FA 
+45.0 51 Brian Hoyer NE 
+50.0 52 Brett Hundley ARI 
+50.5 53 Jake Fromm FA 
+58.0 54 Matt Moore FA 
+64.0 55 Cole McDonald FA 
+55.5 56 Anthony Gordon FA 
+53.0 57 Chase Daniel DET 
+Tier 8
+66.5 58 Mason Rudolph PIT 
