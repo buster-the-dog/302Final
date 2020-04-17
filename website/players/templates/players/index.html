@@ -1,0 +1,23 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'players/style.css' %}">
+
+{% if player_list %}
+	<table>
+		<tr>
+		{% for stat in field_list %}
+		<th>{{ stat.name }}</th>
+		{% endfor %}
+		</tr>
+
+		{% for player in player_list %}
+		<tr>
+			{% for stat in player.FieldList %}
+			<td> {{ stat }} </td>
+			{% endfor %}
+		</tr>
+		{% endfor %}
+	</table>
+{% else %}
+	<p>No Players available</p>
+{% endif %}

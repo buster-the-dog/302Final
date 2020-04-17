@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 # This is the base player class that all players will be based on
 class Player(models.Model):
-    team = models.ForeignKey('Team', on_delete=models.CASCADE)
+    team = models.ForeignKey('Team', on_delete=models.CASCADE, default = "id = 1")
     first_name = models.CharField(max_length = 20)
     last_name = models.CharField(max_length = 20)
     past_points = models.IntegerField(default = 0)
@@ -13,6 +13,10 @@ class Player(models.Model):
     tier = models.IntegerField(default = 0)
     pos_tier = models.IntegerField(default = 0)
     composite = models.IntegerField(default = 0)
+
+    def FieldList(self):
+        ret = [val.value_to_string(self) for val in self._meta.get_fields()]
+        return ret
 
     def __str__(self):
         return self.last_name + ", " + self.first_name
