@@ -29,30 +29,37 @@ def readPlayers():
     for player in players.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in QBs.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in RBs.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in WRs.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in TEs.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in Ks.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
     for player in DEFs.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+            player.composite = round(player.composite, 3)
 
 # put all players into new dictionaries
 # this acts essentially as a c++ multimap, storing all players
