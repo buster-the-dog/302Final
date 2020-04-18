@@ -96,7 +96,7 @@ def readPlayers():
                 print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))
     """
 
-    return QBs
+    return QBs, RBs
 
 def GetTeam(abbrev):
     #if it can't find the team it makes a new one
@@ -107,12 +107,12 @@ def GetTeam(abbrev):
         t.save()
     return t
 
-def QBToWeb(player):
+def PlayerToWeb(playerType, player):
     #tries to find the player first, else it will create a new one
     try:
-        p = Quarterback.objects.get(first_name = player.first_name, last_name = player.last_name)
-    except Quarterback.DoesNotExist:
-        p = Quarterback(first_name = player.first_name, last_name = player.last_name)
+        p = playerType.objects.get(first_name = player.first_name, last_name = player.last_name)
+    except playerType.DoesNotExist:
+        p = playerType(first_name = player.first_name, last_name = player.last_name)
     p.team = GetTeam(player.proTeam)
     p.past_points = player.pastPoints
     p.past_PPG = player.pastPPG
@@ -121,6 +121,11 @@ def QBToWeb(player):
     p.tier = player.tier
     p.pos_tier = player.posTier
     p.composite = player.composite
+    return p
+
+
+def QBToWeb(player):
+    p = PlayerToWeb(Quarterback, player)
     p.completions = player.passComp
     p.attempts = player.passAtt
     p.yards = player.passYard
@@ -131,9 +136,22 @@ def QBToWeb(player):
     p.rushing_touchdowns = player.rushTD
     p.save()
 
+def RBToWeb(player):
+    p = PlayerToWeb(RunningBack, player)
+    p.rushing_attempts = player.rushAtt
+    p.rushing_yds = player.rushYard
+    p.rushing_touchdowns = player.rushTD
+    p.targets = player.recTarget
+    p.receptions = player.receptions
+    p.rec_yards = player.recYard
+    p.rec_touchdowns = player.recTD
+    p.save()
+
 
 #main execution
-players = readPlayers();
+QBs, RBs = readPlayers();
 
-for p in players:
-    QBToWeb(players.get(p))
+for p in QBs:
+    QBToWeb(QBs.get(p))
+for p in RBs:
+    RBToWeb(RBs.get(p))
