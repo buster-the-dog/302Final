@@ -152,8 +152,15 @@ def ReadQB(players):
             else:
                 p.name = words[1] + ' ' + words[2]
 
-            p.first_name = words[1]
-            p.last_name = words[2]
+            nameSplit = p.name.split()
+
+            p.first_name = nameSplit[0]
+            if(len(nameSplit) == 3):
+                p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+            else:
+                p.last_name = nameSplit[1]
+
+
             p.proTeam = words[3]
             p.games = words[4]
             p.pastPoints = words[13]
@@ -164,8 +171,17 @@ def ReadQB(players):
             q = QB()
 
             # this statement initializes all the values shared by q and p with values in p
-            q.__dict__ = p.__dict__
+            #q.__dict__ = p.__dict__
 
+            q.pastPosRank = p.pastPosRank
+            q.position = "QB"
+            q.name = p.name
+            q.first_name = p.first_name
+            q.last_name = p.last_name
+            q.proTeam = p.proTeam
+            q.games = p.games
+            q.pastPoints = p.pastPoints
+            q.pastPPG = p.pastPPG
             q.passComp = words[5]
             q.passAtt = words[6]
             q.passYard = int(words[7].replace(',', ''))
@@ -206,8 +222,14 @@ def ReadRB(players):
             else:
                 p.name = words[1] + ' ' + words[2]
             
-            p.first_name = words[1]
-            p.last_name = words[2]
+            nameSplit = p.name.split()
+
+            p.first_name = nameSplit[0]
+            if(len(nameSplit) == 3):
+                p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+            else:
+                p.last_name = nameSplit[1]
+
             p.proTeam = words[3]
             p.games = words[4]
             p.pastPoints = words[12]
@@ -219,8 +241,17 @@ def ReadRB(players):
             r = RB()
             
             # initialize r with all of p's values
-            r.__dict__ = p.__dict__
+            #r.__dict__ = p.__dict__
 
+            r.pastPosRank = p.pastPosRank
+            r.position = "RB"
+            r.name = p.name
+            r.first_name = p.first_name
+            r.last_name = p.last_name
+            r.proTeam = p.proTeam
+            r.games = p.games
+            r.pastPoints = p.pastPoints
+            r.pastPPG = p.pastPPG
             r.rushAtt = words[5]
             r.rushYard = words[6]
             r.rushTD = words[7]
@@ -260,6 +291,14 @@ def ReadWR(players):
             else:
                 p.name = words[1] + ' ' + words[2]
 
+            nameSplit = p.name.split()
+
+            p.first_name = nameSplit[0]
+            if(len(nameSplit) == 3):
+                p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+            else:
+                p.last_name = nameSplit[1]
+
             p.proTeam = words[3]
             p.games = words[4]
             p.pastPoints = words[12]
@@ -269,8 +308,17 @@ def ReadWR(players):
 
 
             wr = WR()
-            wr.__dict__ = p.__dict__
+            #wr.__dict__ = p.__dict__
 
+            wr.pastPosRank = p.pastPosRank
+            wr.position = "QB"
+            wr.name = p.name
+            wr.first_name = p.first_name
+            wr.last_name = p.last_name
+            wr.proTeam = p.proTeam
+            wr.games = p.games
+            wr.pastPoints = p.pastPoints
+            wr.pastPPG = p.pastPPG
             wr.recTarget = words[5]
             wr.receptions = words[6]
             wr.recYard = words[7]
@@ -309,6 +357,14 @@ def ReadTE(players):
             else:
                 p.name = words[1] + ' ' + words[2]
 
+            nameSplit = p.name.split()
+
+            p.first_name = nameSplit[0]
+            if(len(nameSplit) == 3):
+                p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+            else:
+                p.last_name = nameSplit[1]
+                
             p.proTeam = words[3]
             p.games = words[4]
             p.pastPoints = words[9]
@@ -318,8 +374,17 @@ def ReadTE(players):
 
 
             te = TE()
-            te.__dict__ = p.__dict__
+            #te.__dict__ = p.__dict__
 
+            te.pastPosRank = p.pastPosRank
+            te.position = "QB"
+            te.name = p.name
+            te.first_name = p.first_name
+            te.last_name = p.last_name
+            te.proTeam = p.proTeam
+            te.games = p.games
+            te.pastPoints = p.pastPoints
+            te.pastPPG = p.pastPPG
             te.recTarget = words[5]
             te.receptions = words[6]
             te.recYard = words[7]
@@ -354,6 +419,14 @@ def ReadK(players):
                 del words[3]
             else:
                 p.name = words[1] + ' ' + words[2]
+            
+            nameSplit = p.name.split()
+
+            p.first_name = nameSplit[0]
+            if(len(nameSplit) == 3):
+                p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+            else:
+                p.last_name = nameSplit[1]
 
             p.team = words[3]
             p.games = words[4]
@@ -364,8 +437,17 @@ def ReadK(players):
 
 
             k = K()
-            k.__dict__ = p.__dict__
+            #k.__dict__ = p.__dict__
 
+            k.pastPosRank = p.pastPosRank
+            k.position = "QB"
+            k.name = p.name
+            k.first_name = p.first_name
+            k.last_name = p.last_name
+            k.proTeam = p.proTeam
+            k.games = p.games
+            k.pastPoints = p.pastPoints
+            k.pastPPG = p.pastPPG
             k.FGM = words[5]
             k.FGA = words[6]
             k.FGpercent = words[7]
@@ -415,8 +497,17 @@ def ReadDEF(players):
 
 
             d = Defense()
-            d.__dict__ = p.__dict__
+            #d.__dict__ = p.__dict__
 
+            d.pastPosRank = p.pastPosRank
+            d.position = "QB"
+            d.name = p.name
+            d.first_name = p.first_name
+            d.last_name = p.last_name
+            d.proTeam = p.proTeam
+            d.games = p.games
+            d.pastPoints = p.pastPoints
+            d.pastPPG = p.pastPPG
             d.sack = words[4]
             d.FR = words[5]
             d.intercept = words[6]
@@ -539,7 +630,13 @@ def PosTiers(filename, players, posdict, position):
                 else:
                     player = K()
                 
-                player.__dict__ = p.__dict__
+                #player.__dict__ = p.__dict__
+                player.name = name
+                player.position = position
+                player.newPosRank = rank
+                player.posTier = tier
+                player.proTeam = words[len(words)-1]
+                player.avgPosRank = avg
                 posdict[player.name] = player
             
     f.close()
