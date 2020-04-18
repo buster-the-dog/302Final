@@ -15,7 +15,12 @@ class Player(models.Model):
     composite = models.FloatField(default = 0)
 
     def FieldList(self):
-        ret = [val.value_to_string(self) for val in self._meta.get_fields()]
+        ret = {val.name: val.value_to_string(self) for val in self._meta.get_fields()}
+        try:
+            ret["team"] = Team.objects.get(id = ret["team"]).team_short_name;
+        except Team.DoesNotExist:
+            ret["team"] = "None"
+        ret.pop("id")
         return ret
 
     def __str__(self):

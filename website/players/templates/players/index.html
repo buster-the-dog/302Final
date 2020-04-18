@@ -16,15 +16,15 @@
 			<table class="table table-bordered table-hover">
 
 				<tr>
-				{% for stat in field_list %}
-				<th>{{ stat.name }}</th>
+				{% for stat, val in player_list.0.FieldList.items %}
+				<th>{{ stat }}</th>
 				{% endfor %}
 				</tr>
 
 				{% for player in player_list %}
 				<tr>
-					{% for stat in player.FieldList %}
-					<td> {{ stat }} </td>
+					{% for key, val in player.FieldList.items %}
+					<td> {{ val }} </td>
 					{% endfor %}
 				</tr>
 				{% endfor %}
