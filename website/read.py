@@ -607,6 +607,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
         else:
             avg = float(words[0])
             rank = int(words[1])
+            team = words[len(words)-1]
 
             # figure out name length
             # the ( ) case is for defenses
@@ -622,12 +623,14 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
             if '(' in name:
                 name = name.replace('(', '')
                 name = name.replace(')', '')
+                team = name
 
             # see if player is in dict already
             if name in players:
                 players[name].projRank = rank
                 players[name].tier = tier
                 players[name].avgRank = avg
+                players[name].proTeam = team
             
             # try removing suffix
             elif len(name.split()) == 3:
@@ -637,6 +640,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                     players[name].projRank = rank
                     players[name].tier = tier
                     players[name].avgRank = avg
+                    players[name].proTeam = team
 
             # try removing punctuation
             elif '.' in name:
@@ -647,6 +651,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                     players[name].projRank = rank
                     players[name].tier = tier
                     players[name].avgRank = avg
+                    players[name].proTeam = team
 
 
             # annoying case for mitchell Trubisky
@@ -656,6 +661,7 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                     players[name].projRank = rank
                     players[name].tier = tier
                     players[name].avgRank = avg
+                    players[name].proTeam = team
             
             # nothing worked
             else:
@@ -664,7 +670,9 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 p.projRank = rank
                 p.tier = tier
                 p.avgRank = avg
+                p.proTeam = team
                 players[p.name] = p
+                
 
 
             # at this point, name is either correct or it's not worth
@@ -673,26 +681,32 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
                 QBs[name].projRank = rank
                 QBs[name].tier = tier
                 QBs[name].avgRank = avg
+                QBs[name].proTeam = team
             elif name in RBs:
                 RBs[name].projRank = rank
                 RBs[name].tier = tier
                 RBs[name].avgRank = avg
+                RBs[name].proTeam = team
             elif name in WRs:
                 WRs[name].projRank = rank
                 WRs[name].tier = tier
                 WRs[name].avgRank = avg
+                WRs[name].proTeam = team
             elif name in TEs:
                 TEs[name].projRank = rank
                 TEs[name].tier = tier
                 TEs[name].avgRank = avg
+                TEs[name].proTeam = team
             elif name in  DEFs:
                 DEFs[name].projRank = rank
                 DEFs[name].tier = tier
                 DEFs[name].avgRank = avg
+                DEFs[name].proTeam = team
             elif name in Ks:
                 Ks[name].projRank = rank
                 Ks[name].tier = tier
                 Ks[name].avgRank = avg
+                Ks[name].proTeam = team
 
     f.close()
     return players, QBs, RBs, WRs, TEs, Ks, DEFs

@@ -14,13 +14,13 @@ Tier 3
 10.0 10 Matt Ryan ATL 
 10.8 11 Carson Wentz PHI 
 12.9 12 Matthew Stafford DET 
-13.9 13 Tom Brady TB 
-15.4 14 Ryan Tannehill TEN 
+13.7 13 Tom Brady TB 
+15.5 14 Ryan Tannehill TEN 
 15.6 15 Baker Mayfield CLE 
-16.3 16 Daniel Jones NYG 
+16.4 16 Daniel Jones NYG 
 Tier 4
 17.0 17 Ben Roethlisberger PIT 
-17.8 18 Jared Goff LAR 
+17.9 18 Jared Goff LAR 
 19.6 19 Kirk Cousins MIN 
 20.9 20 Jimmy Garoppolo SF 
 21.5 21 Philip Rivers IND 
@@ -29,11 +29,11 @@ Tier 4
 24.4 24 Gardner Minshew II JAC 
 26.3 25 Ryan Fitzpatrick MIA 
 26.7 26 Drew Lock DEN 
-27.2 27 Derek Carr LV 
-25.7 28 Cam Newton FA 
+27.1 27 Derek Carr LV 
+25.8 28 Cam Newton FA 
 Tier 5
-30.5 29 Dwayne Haskins WAS 
-28.8 30 Jameis Winston FA 
+30.4 29 Dwayne Haskins WAS 
+28.9 30 Jameis Winston FA 
 30.6 31 Mitch Trubisky CHI 
 32.5 32 Nick Foles CHI 
 28.5 33 Tyrod Taylor LAC 
