@@ -13,6 +13,7 @@
 	<div class="container">
 		<h1>Fantasy Football Draft Engineer</h1>
 		<h2>
+			<a href="{%url 'AllView' %}">ALL</a> |
 		{% for name in pTypes %}
 			<a href="{% url 'PlayerView' name %}">{{ name }}</a> 
 		{% endfor %}
@@ -20,21 +21,35 @@
 {% if player_list %}
 		<br><br>
 			<table id="players" class="table table-bordered table-hover">
+				{% if playerType %}
 				<a href="{% url 'Refresh' playerType %}">Refresh</a>
+				{% endif %}
 				<thead class="thead-dark">
 					<tr>
+					{% if use_common_list %}
+					{% for stat, val in player_list.0.CommonFieldList.items %}
+						<th>{{ stat }}</th>
+						{% endfor %}
+					{% else %}
 					{% for stat, val in player_list.0.FieldList.items %}
-					<th>{{ stat }}</th>
-					{% endfor %}
+						<th>{{ stat }}</th>
+						{% endfor %}
+					{% endif %}
 					</tr>
 				</thead>
 				
 				<tbody>
 					{% for player in player_list %}
 					<tr>
+					{% if use_common_list %}
+						{% for key, val in player.CommonFieldList.items %}
+						<td> {{ val }} </td>
+						{% endfor %}
+					{% else %}
 						{% for key, val in player.FieldList.items %}
 						<td> {{ val }} </td>
 						{% endfor %}
+					{% endif %}
 					</tr>
 					{% endfor %}
 				</tbody>

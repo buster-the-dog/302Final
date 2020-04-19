@@ -23,6 +23,14 @@ class Player(models.Model):
         ret.pop("id")
         return ret
 
+    def CommonFieldList(self):
+        ret = {val.name: val.value_to_string(self) for val in Player._meta.get_fields()}
+        try:
+            ret["team"] = Team.objects.get(id = ret["team"]).team_short_name;
+        except Team.DoesNotExist:
+            ret["team"] = "None"
+        return ret
+
     def __str__(self):
         return self.last_name + ", " + self.first_name
 

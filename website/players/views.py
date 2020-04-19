@@ -12,6 +12,29 @@ def Refresh(request, playerType):
 def Index(request):
     return redirect("PlayerView", playerType = "QB")
 
+def AllView(request):
+    pTypes = { 
+            "QB": Quarterback,
+            "RB": RunningBack,
+            "WR": WideReceiver,
+            "TE": TightEnd,
+            "K": Kicker,
+            "DEF": Defense,
+            }
+    player_list = []
+    for playerType in pTypes:
+        for player in pTypes.get(playerType).objects.all():
+            player_list.append(player)
+
+    template = loader.get_template('players/index.html')
+    context = {
+            'player_list': player_list,
+            'pTypes': pTypes,
+            'use_common_list': True,
+            }
+    return HttpResponse(template.render(context,request))
+
+
 def PlayerView(request, playerType):
     pTypes = { 
             "QB": Quarterback,
@@ -31,5 +54,6 @@ def PlayerView(request, playerType):
             'player_list': player_list,
             'pTypes': pTypes,
             'playerType': playerType,
+            'use_common_list': False,
             }
     return HttpResponse(template.render(context, request))
