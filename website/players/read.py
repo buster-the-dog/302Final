@@ -612,6 +612,15 @@ def PosTiers(filename, players, posdict, position):
             else:
                 p = Player()
                 p.name = name
+
+                # assign first and last name
+                nameSplit = name.split()
+                p.first_name = nameSplit[0]
+                if len(nameSplit) == 3:
+                    p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+                else:
+                    p.last_name = nameSplit[1]
+
                 p.position = position
                 p.newPosRank = rank
                 p.posTier = tier
@@ -632,6 +641,14 @@ def PosTiers(filename, players, posdict, position):
                 
                 #player.__dict__ = p.__dict__
                 player.name = name
+                # assign first and last name
+                nameSplit = name.split()
+                player.first_name = nameSplit[0]
+                if len(nameSplit) == 3:
+                    player.last_name = nameSplit[1] + ' ' + nameSplit[2]
+                else:
+                    player.last_name = nameSplit[1]
+                    
                 player.position = position
                 player.newPosRank = rank
                 player.posTier = tier
@@ -764,6 +781,15 @@ def ReadTiers(filename, players, QBs, RBs, WRs, TEs, Ks, DEFs):
             else:
                 p = Player()
                 p.name = name
+
+                # assign first and last name
+                nameSplit = name.split()
+                p.first_name = nameSplit[0]
+                if len(nameSplit) == 3:
+                    p.last_name = nameSplit[1] + ' ' + nameSplit[2]
+                else:
+                    p.last_name = nameSplit[1]
+
                 p.projRank = rank
                 p.tier = tier
                 p.avgRank = avg
