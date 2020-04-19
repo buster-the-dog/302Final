@@ -25,7 +25,7 @@ def readPlayers():
     players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
 
 
-# calculate composite for each player in each dict
+    # calculate composite for each player in each dict
     for player in players.values():
         if player.avgPosRank != 500 and player.avgRank != 500:
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
@@ -61,9 +61,9 @@ def readPlayers():
             player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
             player.composite = round(player.composite, 3)
 
-# put all players into new dictionaries
-# this acts essentially as a c++ multimap, storing all players
-# with keys as composite and vals as lists of players with that composite
+    # put all players into new dictionaries
+    # this acts essentially as a c++ multimap, storing all players
+    # with keys as composite and vals as lists of players with that composite
     bestAll = defaultdict(list)
     bestQBs = defaultdict(list)
     bestRBs = defaultdict(list)
@@ -97,13 +97,13 @@ def readPlayers():
 
 # some printing for testing purposes
     """
-    for vals in bestAll.values():
+    for vals in bestQBs.values():
         for player in vals:
             if player.composite != 10000:
                 print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))
     """
 
-    return QBs
+    return bestQBs
 
 def GetTeam(abbrev):
     #if it can't find the team it makes a new one
@@ -140,7 +140,7 @@ def QBToWeb(player):
 
 
 #main execution
-players = readPlayers();
+players = readPlayers()
 
 for p in players:
     QBToWeb(players.get(p))
