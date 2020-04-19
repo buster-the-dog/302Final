@@ -1,12 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.template import loader
 from django.http import HttpResponse, Http404
 from .models import *
 
 # Create your views here.
 def Index(request):
-    out = ', '.join(t.__name__ for t in Player.__subclasses__())
-    return HttpResponse(out)
+    return redirect("PlayerView", playerType = "QB")
 
 
 def PlayerView(request, playerType):
@@ -25,5 +24,6 @@ def PlayerView(request, playerType):
     template = loader.get_template('players/index.html')
     context = {
             'player_list': player_list,
+            'pTypes': pTypes,
             }
     return HttpResponse(template.render(context, request))

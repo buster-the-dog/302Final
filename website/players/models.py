@@ -77,10 +77,22 @@ class Kicker(Player):
     EPM = models.IntegerField(default = 0)
     EPA= models.IntegerField(default = 0)
     def FG_PCT(self):
-        return self.FGM / self.FGA
+        if self.FGA != 0:
+            return self.FGM / self.FGA
+        else:
+            return 0
     
     def EP_PCT(self):
-        return self.EPM / self.EPA
+        if self.EPA != 0:
+            return self.EPM / self.EPA
+        else:
+            return 0
+
+    def FieldList(self):
+        ret = super().FieldList()
+        ret["FG PCT"] = self.FG_PCT()
+        ret["EP PCT"] = self.EP_PCT()
+        return ret
     
 
 class Defense(Player):
@@ -89,7 +101,16 @@ class Defense(Player):
     FR = models.IntegerField(default = 0)
     interceptions = models.IntegerField(default = 0)
     touchdowns = models.IntegerField(default = 0)
-    passing_ypg = models.IntegerField(default = 0)
-    rushing_ypg = models.IntegerField(default = 0)
+    passing_ypg = models.FloatField(default = 0)
+    rushing_ypg = models.FloatField(default = 0)
     safeties = models.IntegerField(default = 0)
     kickoff_touchdowns = models.IntegerField(default = 0)
+
+    def FieldList(self):
+        ret = super().FieldList()
+        ret.pop("first_name")
+        ret.pop("last_name")
+        return ret
+    
+    def __str__(self):
+        return self.team.team_short_name

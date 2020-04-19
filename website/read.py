@@ -321,10 +321,10 @@ def ReadWR(players):
             wr.pastPPG = p.pastPPG
             wr.recTarget = words[5]
             wr.receptions = words[6]
-            wr.recYard = words[7]
+            wr.recYard = int(words[7].replace(',', ''))
             wr.recTD = words[8]
             wr.rushAtt = words[9]
-            wr.rushYard = words[10]
+            wr.rushYard = int(words[10].replace(',', ''))
             wr.rushTD = words[11]
 
             WRs[wr.name] = wr
@@ -387,7 +387,7 @@ def ReadTE(players):
             te.pastPPG = p.pastPPG
             te.recTarget = words[5]
             te.receptions = words[6]
-            te.recYard = words[7]
+            te.recYard = int(words[7].replace(',', ''))
             te.recTD = words[8]
 
             TEs[te.name] = te

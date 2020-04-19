@@ -103,7 +103,7 @@ def readPlayers():
                 print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))
     """
 
-    return QBs, RBs
+    return QBs, RBs, WRs, TEs, Ks, DEFs
 
 def GetTeam(abbrev):
     #if it can't find the team it makes a new one
@@ -116,11 +116,17 @@ def GetTeam(abbrev):
 
 def PlayerToWeb(playerType, player):
     #tries to find the player first, else it will create a new one
-    try:
-        p = playerType.objects.get(first_name = player.first_name, last_name = player.last_name)
-    except playerType.DoesNotExist:
-        p = playerType(first_name = player.first_name, last_name = player.last_name)
-    p.team = GetTeam(player.proTeam)
+    if (playerType == Defense):
+        try:
+            p = Defense.objects.get(team = Team.objects.get(team_short_name = player.name))
+        except Defense.DoesNotExist:
+            p = Defense(team = GetTeam(player.proTeam))
+    else:
+        try:
+            p = playerType.objects.get(first_name = player.first_name, last_name = player.last_name)
+        except playerType.DoesNotExist:
+            p = playerType(first_name = player.first_name, last_name = player.last_name)
+        p.team = GetTeam(player.proTeam)
     p.past_points = player.pastPoints
     p.past_PPG = player.pastPPG
     p.projected_rank = player.projRank
@@ -133,7 +139,7 @@ def PlayerToWeb(playerType, player):
 
 def QBToWeb(player):
     p = PlayerToWeb(Quarterback, player)
-    if p.composite = 10000.0:
+    if (p.composite == 10000.0):
         return
     p.completions = player.passComp
     p.attempts = player.passAtt
@@ -147,7 +153,7 @@ def QBToWeb(player):
 
 def RBToWeb(player):
     p = PlayerToWeb(RunningBack, player)
-    if p.composite = 10000.0:
+    if (p.composite == 10000.0):
         return
     p.rushing_attempts = player.rushAtt
     p.rushing_yds = player.rushYard
@@ -158,11 +164,66 @@ def RBToWeb(player):
     p.rec_touchdowns = player.recTD
     p.save()
 
+def WRToWeb(player):
+    p = PlayerToWeb(WideReceiver, player)
+    if (p.composite == 10000.0):
+        return
+    p.targets = player.recTarget
+    p.receptions = player.receptions
+    p.rec_yards = player.recYard
+    p.rec_touchdowns = player.recTD
+    p.rushing_attempts = player.rushAtt
+    p.rushing_yds = player.rushYard
+    p.rushing_touchdowns = player.rushTD
+    p.save()
+
+def TEToWeb(player):
+    p = PlayerToWeb(TightEnd, player)
+    if p.composite == 10000.0:
+        return
+    p.targets = player.recTarget
+    p.receptions = player.receptions
+    p.rec_yards = player.recYard
+    p.rec_touchdowns = player.recTD
+    p.save()
+
+def KToWeb(player):
+    p = PlayerToWeb(Kicker, player)
+    if p.composite == 10000.0:
+        return
+    p.FGM = player.FGM
+    p.FGA = player.FGA
+    p.EPM = player.EPM
+    p.EPA = player.EPA
+    p.save()
+
+def DEFToWeb(player):
+    p = PlayerToWeb(Defense, player)
+    if p.composite == 10000.0:
+        return
+    p.games = player.games
+    p.sacks = player.sack
+    p.FR = player.FR
+    p.interceptions = player.intercept
+    p.touchdowns = player.TD
+    p.passing_ypg = player.passYPG
+    p.rushing_ypg = player.rushYPG
+    p.safeties = player.safety
+    p.kickoff_touchdowns = player.kickTD
+    p.save()
 
 #main execution
-QBs, RBs = readPlayers();
+QBs, RBs, WRs, TEs, Ks, DEFs = readPlayers();
 
 for p in QBs:
     QBToWeb(QBs.get(p))
 for p in RBs:
     RBToWeb(RBs.get(p))
+for p in WRs:
+    WRToWeb(WRs.get(p))
+for p in TEs:
+    TEToWeb(TEs.get(p))
+for p in Ks:
+    KToWeb(Ks.get(p))
+for p in DEFs:
+    DEFToWeb(DEFs.get(p))

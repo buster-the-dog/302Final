@@ -9,11 +9,16 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css" href="{% static 'players/style.css' %}">
 </head>
-
-{% if player_list %}
+<body>
 	<div class="container">
-		<h1>Fantasy Football Draft Engineer<br><br></h1>
-
+		<h1>Fantasy Football Draft Engineer</h1>
+		<h2>
+		{% for name in pTypes %}
+			<a href="{% url 'PlayerView' name %}">{{ name }}</a> 
+		{% endfor %}
+		</h2>
+{% if player_list %}
+		<br><br>
 			<table id="players" class="table table-bordered table-hover">
 				<thead class="thead-dark">
 					<tr>
@@ -38,6 +43,7 @@
 {% else %}
 	<p>No Players available</p>
 {% endif %}
+</body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
