@@ -2,7 +2,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "website.settings")
 import django
 django.setup()
-from read import *
+from players.read import *
 from players.models import *
 
 def readPlayers():
@@ -213,17 +213,23 @@ def DEFToWeb(player):
     p.save()
 
 #main execution
-QBs, RBs, WRs, TEs, Ks, DEFs = readPlayers();
-
-for p in QBs:
-    QBToWeb(QBs.get(p))
-for p in RBs:
-    RBToWeb(RBs.get(p))
-for p in WRs:
-    WRToWeb(WRs.get(p))
-for p in TEs:
-    TEToWeb(TEs.get(p))
-for p in Ks:
-    KToWeb(Ks.get(p))
-for p in DEFs:
-    DEFToWeb(DEFs.get(p))
+def Update(playerType):
+    QBs, RBs, WRs, TEs, Ks, DEFs = readPlayers();
+    if playerType == "QB":
+        for p in QBs:
+            QBToWeb(QBs.get(p))
+    elif playerType == "RB":
+        for p in RBs:
+            RBToWeb(RBs.get(p))
+    elif playerType == "WR":
+        for p in WRs:
+            WRToWeb(WRs.get(p))
+    elif playerType == "TE":
+        for p in TEs:
+            TEToWeb(TEs.get(p))
+    elif playerType == "K":
+        for p in Ks:
+            KToWeb(Ks.get(p))
+    elif playerType == "DEF":
+        for p in DEFs:
+            DEFToWeb(DEFs.get(p))
