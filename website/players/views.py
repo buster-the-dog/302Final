@@ -9,7 +9,7 @@ def Refresh(request, playerType):
     Update(playerType)
     return redirect("PlayerView", playerType = playerType)
 
-def Index(request, playerType):
+def Index(request):
     return redirect("PlayerView", playerType = "QB")
 
 def PlayerView(request, playerType):
