@@ -126,7 +126,7 @@ teams = {
 
 # this function reads QBs.txt and sorts stats from 2019-2020 Quarterbacks
 def ReadQB(players):
-    f = open("stats/QBs.txt", "r")
+    f = open("players/stats/QBs.txt", "r")
 
     words = []
     QBs = {}
@@ -198,7 +198,7 @@ def ReadQB(players):
 
 # This function behaves similarly to ReadQB, except for RBs
 def ReadRB(players):
-    f = open("stats/RBs.txt", "r")
+    f = open("players/stats/RBs.txt", "r")
 
     words = []
     RBs = {}
@@ -267,7 +267,7 @@ def ReadRB(players):
 
 # same as above, but with WRs
 def ReadWR(players):
-    f = open("stats/WRs.txt", 'r')
+    f = open("players/stats/WRs.txt", 'r')
     
     words = []
     WRs = {}
@@ -334,7 +334,7 @@ def ReadWR(players):
 
 # same as above
 def ReadTE(players):
-    f = open("stats/TEs.txt", 'r')
+    f = open("players/stats/TEs.txt", 'r')
 
     words = []
     TEs = {}
@@ -397,7 +397,7 @@ def ReadTE(players):
 
 # same as above
 def ReadK(players):
-    f = open("stats/Ks.txt", 'r')
+    f = open("players/stats/Ks.txt", 'r')
 
     words = []
     Ks = {}
@@ -461,7 +461,7 @@ def ReadK(players):
 
 #same as above
 def ReadDEF(players):
-    f = open("stats/DEFs.txt", 'r')
+    f = open("players/stats/DEFs.txt", 'r')
 
     words = []
     DEFs = {}
@@ -644,7 +644,7 @@ def PosTiers(filename, players, posdict, position):
             
 # made Def tiers a separate function because it would make the above function too clunky
 def DEFTiers(players, DEFs):
-    f = open("stats/DEF_Tiers.txt", 'r')
+    f = open("players/stats/DEF_Tiers.txt", 'r')
 
     words = []
 

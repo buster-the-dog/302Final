@@ -16,13 +16,13 @@ def readPlayers():
     players, TEs = ReadTE(players)
     players, Ks = ReadK(players)
     players, DEFs = ReadDEF(players)
-    players, QBs = PosTiers("stats/QB_Tiers.txt", players, QBs, "QB")
-    players, RBs = PosTiers("stats/RB_Tiers.txt", players, RBs, "RB")
-    players, WRs = PosTiers("stats/WR_Tiers.txt", players, WRs, "WR")
-    players, TEs = PosTiers("stats/TE_Tiers.txt", players, TEs, "TE")
-    players, Ks = PosTiers("stats/K_Tiers.txt", players, Ks, "K")
+    players, QBs = PosTiers("players/stats/QB_Tiers.txt", players, QBs, "QB")
+    players, RBs = PosTiers("players/stats/RB_Tiers.txt", players, RBs, "RB")
+    players, WRs = PosTiers("players/stats/WR_Tiers.txt", players, WRs, "WR")
+    players, TEs = PosTiers("players/stats/TE_Tiers.txt", players, TEs, "TE")
+    players, Ks = PosTiers("players/stats/K_Tiers.txt", players, Ks, "K")
     players, DEFs = DEFTiers(players, DEFs)
-    players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
+    players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("players/stats/Tiers.txt", players, QBs, RBs, WRs, TEs, Ks, DEFs)
 
 
     # calculate composite for each player in each dict
@@ -215,6 +215,7 @@ def DEFToWeb(player):
 #main execution
 def Update(playerType):
     QBs, RBs, WRs, TEs, Ks, DEFs = readPlayers();
+    print("updating " + playerType)
     if playerType == "QB":
         for p in QBs:
             QBToWeb(QBs.get(p))
@@ -233,3 +234,4 @@ def Update(playerType):
     elif playerType == "DEF":
         for p in DEFs:
             DEFToWeb(DEFs.get(p))
+    print("done updating")

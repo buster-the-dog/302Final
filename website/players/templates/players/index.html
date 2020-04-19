@@ -20,6 +20,7 @@
 {% if player_list %}
 		<br><br>
 			<table id="players" class="table table-bordered table-hover">
+				<a href="{% url 'Refresh' playerType %}">Refresh</a>
 				<thead class="thead-dark">
 					<tr>
 					{% for stat, val in player_list.0.FieldList.items %}

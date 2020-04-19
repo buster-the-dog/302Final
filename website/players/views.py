@@ -5,9 +5,12 @@ from .sort import *
 from .models import *
 
 # Create your views here.
-def Index(request):
-    return redirect("PlayerView", playerType = "QB")
+def Refresh(request, playerType):
+    Update(playerType)
+    return redirect("PlayerView", playerType = playerType)
 
+def Index(request, playerType):
+    return redirect("PlayerView", playerType = "QB")
 
 def PlayerView(request, playerType):
     pTypes = { 
@@ -18,9 +21,6 @@ def PlayerView(request, playerType):
             "K": Kicker,
             "DEF": Defense,
             }
-
-    Update(playerType)
-
     if playerType in pTypes:
         player_list = pTypes.get(playerType).objects.all()
     else:
@@ -30,5 +30,6 @@ def PlayerView(request, playerType):
     context = {
             'player_list': player_list,
             'pTypes': pTypes,
+            'playerType': playerType,
             }
     return HttpResponse(template.render(context, request))
