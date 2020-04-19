@@ -133,6 +133,8 @@ def PlayerToWeb(playerType, player):
 
 def QBToWeb(player):
     p = PlayerToWeb(Quarterback, player)
+    if p.composite = 10000.0:
+        return
     p.completions = player.passComp
     p.attempts = player.passAtt
     p.yards = player.passYard
@@ -145,6 +147,8 @@ def QBToWeb(player):
 
 def RBToWeb(player):
     p = PlayerToWeb(RunningBack, player)
+    if p.composite = 10000.0:
+        return
     p.rushing_attempts = player.rushAtt
     p.rushing_yds = player.rushYard
     p.rushing_touchdowns = player.rushTD

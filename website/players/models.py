@@ -6,13 +6,13 @@ class Player(models.Model):
     team = models.ForeignKey('Team', on_delete=models.CASCADE, default = 1)
     first_name = models.CharField(max_length = 20)
     last_name = models.CharField(max_length = 20)
+    composite = models.FloatField(default = 0)
     past_points = models.FloatField(default = 0)
     past_PPG = models.FloatField(default = 0)
     projected_rank = models.IntegerField(default = 0)
     games = models.IntegerField(default = 0)
     tier = models.IntegerField(default = 0)
     pos_tier = models.IntegerField(default = 0)
-    composite = models.FloatField(default = 0)
 
     def FieldList(self):
         ret = {val.name: val.value_to_string(self) for val in self._meta.get_fields()}
