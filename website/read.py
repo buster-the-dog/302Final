@@ -253,11 +253,11 @@ def ReadRB(players):
             r.pastPoints = p.pastPoints
             r.pastPPG = p.pastPPG
             r.rushAtt = words[5]
-            r.rushYard = words[6]
+            r.rushYard = int(words[6].replace(',', ''))
             r.rushTD = words[7]
             r.recTarget = words[8]
             r.receptions = words[9]
-            r.recYard = words[10]
+            r.recYard = int(words[10].replace(',', ''))
             r.recTD = words[11]
 
             RBs[r.name] = r
