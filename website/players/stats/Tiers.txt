@@ -1,421 +1,421 @@
 
 Tier 1
 1.1 1 Christian McCaffrey CAR 
-3.0 2 Saquon Barkley NYG 
+3.1 2 Saquon Barkley NYG 
 3.3 3 Ezekiel Elliott DAL 
 3.4 4 Michael Thomas NO 
 Tier 2
-5.3 5 Dalvin Cook MIN 
-7.1 6 Derrick Henry TEN 
-7.6 7 Alvin Kamara NO 
-9.9 8 Tyreek Hill KC 
+5.2 5 Dalvin Cook MIN 
+7.2 6 Derrick Henry TEN 
+7.7 7 Alvin Kamara NO 
+9.8 8 Tyreek Hill KC 
 Tier 3
-11.3 9 Aaron Jones GB 
-11.3 10 Davante Adams GB 
-11.3 11 Joe Mixon CIN 
-13.0 12 Julio Jones ATL 
+11.3 9 Davante Adams GB 
+11.4 10 Joe Mixon CIN 
+11.4 11 Aaron Jones GB 
+13.2 12 Julio Jones ATL 
 13.2 13 Nick Chubb CLE 
-13.9 14 DeAndre Hopkins ARI 
+14.1 14 DeAndre Hopkins ARI 
 14.7 15 Chris Godwin TB 
 17.6 16 Travis Kelce KC 
 Tier 4
 18.5 17 George Kittle SF 
-19.4 18 Josh Jacobs LV 
-20.6 19 Mike Evans TB 
-22.6 20 Kenny Golladay DET 
-23.4 21 Lamar Jackson BAL 
-24.7 22 Amari Cooper DAL 
-25.5 23 Leonard Fournette JAC 
-26.3 24 Kenyan Drake ARI 
-26.3 25 Austin Ekeler LAC 
+18.7 18 Josh Jacobs LV 
+20.3 19 Mike Evans TB 
+22.5 20 Kenny Golladay DET 
+23.0 21 Lamar Jackson BAL 
+24.6 22 Amari Cooper DAL 
+25.7 23 Leonard Fournette JAC 
+26.1 24 Austin Ekeler LAC 
+26.2 25 Kenyan Drake ARI 
 Tier 5
-29.3 26 Odell Beckham Jr. CLE 
+29.5 26 Odell Beckham Jr. CLE 
 30.6 27 Miles Sanders PHI 
-31.4 28 Mark Andrews BAL 
-31.7 29 D.J. Moore CAR 
-32.6 30 Courtland Sutton DEN 
-32.8 31 Patrick Mahomes KC 
-33.1 32 Allen Robinson CHI 
+31.5 28 Mark Andrews BAL 
+31.8 29 D.J. Moore CAR 
+32.8 30 Courtland Sutton DEN 
+33.2 31 Patrick Mahomes KC 
+33.2 32 Allen Robinson CHI 
 34.1 33 A.J. Brown TEN 
-34.7 34 Chris Carson SEA 
-35.1 35 Todd Gurley ATL 
-36.7 36 JuJu Smith-Schuster PIT 
-38.6 37 Marlon Mack IND 
-38.7 38 Cooper Kupp LAR 
-40.8 39 Adam Thielen MIN 
+34.9 34 Chris Carson SEA 
+35.5 35 Todd Gurley ATL 
+36.3 36 JuJu Smith-Schuster PIT 
+38.4 37 Marlon Mack IND 
+39.1 38 Cooper Kupp LAR 
+41.0 39 Adam Thielen MIN 
 Tier 6
-43.2 40 Calvin Ridley ATL 
+42.9 40 Calvin Ridley ATL 
 43.6 41 Mark Ingram II BAL 
-43.9 42 DeVante Parker MIA 
-44.7 43 Keenan Allen LAC 
+44.0 42 DeVante Parker MIA 
+45.3 43 Keenan Allen LAC 
 45.4 44 Zach Ertz PHI 
-46.5 45 Tyler Lockett SEA 
-46.6 46 Devin Singletary BUF 
-48.2 47 Robert Woods LAR 
-48.7 48 Stefon Diggs BUF 
-49.1 49 Melvin Gordon DEN 
-49.6 50 D.K. Metcalf SEA 
-52.8 51 T.Y. Hilton IND 
+46.7 45 Devin Singletary BUF 
+46.7 46 Tyler Lockett SEA 
+47.6 47 Robert Woods LAR 
+48.5 48 Stefon Diggs BUF 
+49.5 49 D.K. Metcalf SEA 
+49.6 50 Melvin Gordon DEN 
+52.9 51 T.Y. Hilton IND 
 54.1 52 Darren Waller LV 
-55.8 53 Le'Veon Bell NYJ 
-56.4 54 A.J. Green CIN 
-56.4 55 Russell Wilson SEA 
+56.3 53 Le'Veon Bell NYJ 
+56.4 54 Russell Wilson SEA 
+56.6 55 A.J. Green CIN 
 Tier 7
-58.7 56 Kyler Murray ARI 
-58.8 57 Damien Williams KC 
-59.9 58 D.J. Chark JAC 
-60.1 59 Terry McLaurin WAS 
-60.4 60 James Conner PIT 
-61.4 61 Michael Gallup DAL 
+58.9 56 Kyler Murray ARI 
+59.0 57 Damien Williams KC 
+59.9 58 Terry McLaurin WAS 
+60.2 59 D.J. Chark JAC 
+60.5 60 James Conner PIT 
+61.2 61 Michael Gallup DAL 
 62.5 62 Dak Prescott DAL 
-62.8 63 Kerryon Johnson DET 
-63.4 64 David Montgomery CHI 
-65.2 65 Deshaun Watson HOU 
+62.7 63 David Montgomery CHI 
+62.9 64 Kerryon Johnson DET 
+65.1 65 Deshaun Watson HOU 
 67.6 66 David Johnson HOU 
-67.9 67 Hunter Henry LAC 
-69.6 68 Jarvis Landry CLE 
-71.2 69 Deebo Samuel SF 
-71.3 70 Josh Allen BUF 
-74.8 71 Julian Edelman NE 
-75.1 72 Evan Engram NYG 
-76.8 73 Tyler Boyd CIN 
-78.0 74 Raheem Mostert SF 
+68.0 67 Hunter Henry LAC 
+68.6 68 Jarvis Landry CLE 
+71.1 69 Deebo Samuel SF 
+71.4 70 Josh Allen BUF 
+74.6 71 Evan Engram NYG 
+74.8 72 Julian Edelman NE 
+77.3 73 Raheem Mostert SF 
+77.3 74 Tyler Boyd CIN 
 Tier 8
-78.7 75 Will Fuller HOU 
-82.0 76 John Brown BUF 
-83.1 77 Derrius Guice WAS 
-84.1 78 Kareem Hunt CLE 
-84.7 79 Marquise Brown BAL 
-85.3 80 Sony Michel NE 
-86.2 81 Phillip Lindsay DEN 
-86.3 82 Aaron Rodgers GB 
-86.4 83 Mike Williams LAC 
-87.2 84 Drew Brees NO 
-87.7 85 Tyler Higbee LAR 
-88.4 86 Jared Cook NO 
-88.5 87 Austin Hooper CLE 
-90.2 88 Ronald Jones II TB 
-90.2 89 Matt Ryan ATL 
-90.2 90 Marvin Jones DET 
-90.5 91 Christian Kirk ARI 
-95.2 92 Carson Wentz PHI 
-97.1 93 Brandin Cooks HOU 
-100.5 94 Darius Slayton NYG 
-100.6 95 Robby Anderson CAR 
-101.0 96 Jordan Howard MIA 
-101.3 97 Sterling Shepard NYG 
-101.8 98 Emmanuel Sanders NO 
+78.8 75 Will Fuller HOU 
+81.6 76 John Brown BUF 
+82.1 77 Derrius Guice WAS 
+84.2 78 Kareem Hunt CLE 
+84.9 79 Marquise Brown BAL 
+85.7 80 Sony Michel NE 
+86.3 81 Aaron Rodgers GB 
+86.8 82 Phillip Lindsay DEN 
+86.9 83 Mike Williams LAC 
+87.5 84 Drew Brees NO 
+87.9 85 Tyler Higbee LAR 
+88.4 86 Austin Hooper CLE 
+88.6 87 Jared Cook NO 
+89.6 88 Christian Kirk ARI 
+89.9 89 Matt Ryan ATL 
+90.1 90 Marvin Jones DET 
+90.3 91 Ronald Jones II TB 
+95.0 92 Carson Wentz PHI 
+96.5 93 Brandin Cooks HOU 
+100.1 94 Darius Slayton NYG 
+101.3 95 Robby Anderson CAR 
+101.8 96 Emmanuel Sanders NO 
+101.9 97 Jordan Howard MIA 
+102.4 98 Sterling Shepard NYG 
 Tier 9
-105.2 99 Alshon Jeffery PHI 
-105.5 100 Darrell Henderson LAR 
-106.1 101 Matthew Stafford DET 
-106.4 102 Noah Fant DEN 
-106.8 103 Latavius Murray NO 
-108.3 104 James White NE 
-110.6 105 Tom Brady TB 
-111.6 106 Anthony Miller CHI 
-111.8 107 Tevin Coleman SF 
-115.7 108 Dallas Goedert PHI 
-116.5 109 Curtis Samuel CAR 
-118.2 110 Ryan Tannehill TEN 
-120.8 111 Jamison Crowder NYJ 
-121.5 112 Baker Mayfield CLE 
-122.3 113 Preston Williams MIA 
-123.0 114 Daniel Jones NYG 
-124.4 115 Alexander Mattison MIN 
-124.9 116 Diontae Johnson PIT 
-125.3 117 O.J. Howard TB 
-125.4 118 Ben Roethlisberger PIT 
-126.6 119 T.J. Hockenson DET 
-128.1 120 Jamaal Williams GB 
-128.6 121 Mecole Hardman KC 
-128.8 122 Mike Gesicki MIA 
-130.1 123 Tarik Cohen CHI 
-131.6 124 Jonnu Smith TEN 
-131.7 125 Sammy Watkins KC 
-132.4 126 Jared Goff LAR 
-133.8 127 Breshad Perriman NYJ 
-133.9 128 Golden Tate NYG 
+105.9 99 Alshon Jeffery PHI 
+106.0 100 Darrell Henderson LAR 
+106.0 101 Noah Fant DEN 
+106.1 102 Matthew Stafford DET 
+107.4 103 Latavius Murray NO 
+107.9 104 James White NE 
+109.5 105 Tom Brady TB 
+112.1 106 Tevin Coleman SF 
+112.3 107 Anthony Miller CHI 
+115.2 108 Dallas Goedert PHI 
+117.7 109 Curtis Samuel CAR 
+118.9 110 Ryan Tannehill TEN 
+120.3 111 Jamison Crowder NYJ 
+121.6 112 Baker Mayfield CLE 
+122.4 113 Preston Williams MIA 
+123.1 114 Daniel Jones NYG 
+123.9 115 Alexander Mattison MIN 
+124.8 116 Diontae Johnson PIT 
+125.6 117 Ben Roethlisberger PIT 
+125.7 118 O.J. Howard TB 
+126.1 119 T.J. Hockenson DET 
+128.4 120 Mecole Hardman KC 
+128.6 121 Jamaal Williams GB 
+128.9 122 Mike Gesicki MIA 
+130.4 123 Tarik Cohen CHI 
+131.4 124 Jonnu Smith TEN 
+132.5 125 Jared Goff LAR 
+132.7 126 Breshad Perriman NYJ 
+133.1 127 Sammy Watkins KC 
 Tier 10
-139.8 129 Duke Johnson HOU 
-141.1 130 Adrian Peterson WAS 
-141.7 131 Kirk Cousins MIN 
-142.9 132 Jack Doyle IND 
-143.2 133 DeSean Jackson PHI 
-130.3 134 Devonta Freeman FA 
-132.9 135 Tony Pollard DAL 
-147.8 136 John Ross CIN 
-148.3 137 Eric Ebron PIT 
+135.6 128 Golden Tate NYG 
+140.6 129 Duke Johnson HOU 
+142.0 130 Kirk Cousins MIN 
+142.4 131 Jack Doyle IND 
+142.4 132 Adrian Peterson WAS 
+143.0 133 DeSean Jackson PHI 
+129.6 134 Devonta Freeman FA 
+131.5 135 Tony Pollard DAL 
+146.8 136 John Ross CIN 
+148.4 137 Eric Ebron PIT 
 148.7 138 Tyrell Williams LV 
-152.6 139 Kenny Stills HOU 
-152.6 140 Jimmy Garoppolo SF 
-146.1 141 Matt Breida SF 
-141.1 142 San Francisco (SF) 
-148.7 143 Justice Hill BAL 
-157.4 144 James Washington PIT 
-143.7 145 Carlos Hyde FA 
-158.0 146 Ian Thomas CAR 
-151.9 147 Boston Scott PHI 
-159.1 148 N'Keal Harry NE 
-152.6 149 Royce Freeman DEN 
-152.9 150 Justin Jackson LAC 
-160.3 151 Philip Rivers IND 
-147.0 152 Pittsburgh (PIT) 
-156.7 153 Chase Edmonds ARI 
-157.4 154 Malcolm Brown LAR 
-165.8 155 Dede Westbrook JAC 
+152.8 139 Jimmy Garoppolo SF 
+154.1 140 Kenny Stills HOU 
+147.3 141 Matt Breida SF 
+140.7 142 San Francisco (SF) 
+155.6 143 James Washington PIT 
+149.4 144 Justice Hill BAL 
+144.0 145 Carlos Hyde FA 
+158.3 146 Ian Thomas CAR 
+153.1 147 Justin Jackson LAC 
+153.1 148 Boston Scott PHI 
+160.0 149 N'Keal Harry NE 
+161.0 150 Philip Rivers IND 
+147.3 151 Pittsburgh (PIT) 
+154.6 152 Royce Freeman DEN 
+155.7 153 Chase Edmonds ARI 
+156.6 154 Malcolm Brown LAR 
+166.3 155 Dede Westbrook JAC 
 154.1 156 Baltimore (BAL) 
 Tier 11
-163.5 157 Sam Darnold NYJ 
-157.7 158 Rashaad Penny SEA 
-171.0 159 Parris Campbell IND 
-172.8 160 Chris Herndon IV NYJ 
-173.4 161 Hunter Renfrow LV 
-173.5 162 Nyheim Hines IND 
-173.6 163 Gus Edwards BAL 
-168.6 164 Corey Davis TEN 
-162.0 165 Buffalo (BUF) 
-162.7 166 New England (NE) 
-178.1 167 Greg Olsen SEA 
-179.1 168 Gardner Minshew II JAC 
-168.3 169 Chicago (CHI) 
-175.1 170 Teddy Bridgewater CAR 
-181.8 171 Larry Fitzgerald ARI 
-171.9 172 Harrison Butker KC 
-185.8 173 Cole Beasley BUF 
-174.7 174 Justin Tucker BAL 
-183.4 175 Blake Jarwin DAL 
-186.5 176 Randall Cobb HOU 
-180.9 177 Minnesota (MIN) 
-183.1 178 Wil Lutz NO 
-176.9 179 Los Angeles (LAR) 
-190.0 180 Jaylen Samuels PIT 
-190.3 181 Irv Smith Jr. MIN 
-197.4 182 Ryan Fitzpatrick MIA 
-189.3 183 Greg Zuerlein DAL 
-195.7 184 Allen Lazard GB 
-202.5 185 Drew Lock DEN 
-201.7 186 Kyle Rudolph MIN 
-190.5 187 Benny Snell Jr. PIT 
-202.2 188 Derek Carr LV 
-185.3 189 Will Dissly SEA 
-197.7 190 David Njoku CLE 
-199.2 191 New Orleans (NO) 
-194.2 192 Kansas City (KC) 
+156.2 157 Rashaad Penny SEA 
+163.8 158 Sam Darnold NYJ 
+171.2 159 Parris Campbell IND 
+172.8 160 Hunter Renfrow LV 
+172.9 161 Chris Herndon IV NYJ 
+160.9 162 New England (NE) 
+174.2 163 Gus Edwards BAL 
+174.4 164 Nyheim Hines IND 
+168.9 165 Corey Davis TEN 
+163.2 166 Buffalo (BUF) 
+177.1 167 Greg Olsen SEA 
+179.0 168 Gardner Minshew II JAC 
+182.4 169 Larry Fitzgerald ARI 
+170.0 170 Chicago (CHI) 
+176.7 171 Teddy Bridgewater CAR 
+172.2 172 Harrison Butker KC 
+186.1 173 Cole Beasley BUF 
+174.3 174 Justin Tucker BAL 
+184.8 175 Blake Jarwin DAL 
+185.9 176 Randall Cobb HOU 
+180.1 177 Minnesota (MIN) 
+175.6 178 Los Angeles (LAR) 
+183.2 179 Wil Lutz NO 
+190.0 180 Irv Smith Jr. MIN 
+191.5 181 Jaylen Samuels PIT 
+198.4 182 Ryan Fitzpatrick MIA 
+189.2 183 Greg Zuerlein DAL 
+195.9 184 Allen Lazard GB 
+203.7 185 Drew Lock DEN 
+200.7 186 Derek Carr LV 
+196.3 187 David Njoku CLE 
+190.8 188 Benny Snell Jr. PIT 
+203.0 189 Kyle Rudolph MIN 
+186.0 190 Will Dissly SEA 
+192.6 191 Kansas City (KC) 
+198.8 192 New Orleans (NO) 
 Tier 12
-197.8 193 DeAndre Washington LV 
-192.5 194 Cam Newton FA 
-205.0 195 Robbie Gould SF 
-194.8 196 Darwin Thompson KC 
-202.1 197 Chris Conley JAC 
-202.5 198 Los Angeles (LAC) 
-205.3 199 Mohamed Sanu NE 
-211.8 200 Matt Gay TB 
-195.5 201 Peyton Barber WAS 
-214.2 202 Matt Prater DET 
-208.9 203 Giovani Bernard CIN 
-142.1 204 Hayden Hurst ATL 
-210.5 205 New York (NYJ) 
-199.1 206 Dawson Knox BUF 
-211.0 207 Denver (DEN) 
-199.3 208 Andy Isabella ARI 
-215.9 209 Albert Wilson MIA 
-213.6 210 Rex Burkhead NE 
-209.5 211 Tre'Quan Smith NO 
-225.7 212 Zane Gonzalez ARI 
-221.5 213 Seattle (SEA) 
-222.1 214 Michael Badgley LAC 
-220.0 215 Philadelphia (PHI) 
-228.8 216 Tennessee (TEN) 
-224.3 217 Danny Amendola DET 
-230.1 218 Ka'imi Fairbairn HOU 
-215.0 219 Ryquell Armstead JAC 
-233.4 220 Green Bay (GB) 
-235.1 221 Mason Crosby GB 
-214.0 222 Ito Smith ATL 
+198.4 193 DeAndre Washington LV 
+193.0 194 Cam Newton FA 
+205.4 195 Robbie Gould SF 
+195.5 196 Darwin Thompson KC 
+202.0 197 Chris Conley JAC 
+203.7 198 Los Angeles (LAC) 
+143.5 199 Hayden Hurst ATL 
+205.7 200 Mohamed Sanu NE 
+211.4 201 Matt Gay TB 
+195.7 202 Peyton Barber WAS 
+214.1 203 Matt Prater DET 
+210.1 204 Giovani Bernard CIN 
+198.0 205 Dawson Knox BUF 
+210.7 206 New York (NYJ) 
+199.8 207 Andy Isabella ARI 
+213.0 208 Denver (DEN) 
+216.5 209 Albert Wilson MIA 
+214.5 210 Rex Burkhead NE 
+225.5 211 Zane Gonzalez ARI 
+221.7 212 Seattle (SEA) 
+210.4 213 Tre'Quan Smith NO 
+222.5 214 Michael Badgley LAC 
+220.8 215 Philadelphia (PHI) 
+227.4 216 Tennessee (TEN) 
+224.4 217 Danny Amendola DET 
+229.8 218 Ka'imi Fairbairn HOU 
+216.0 219 Ryquell Armstead JAC 
+233.3 220 Green Bay (GB) 
+211.8 221 Ito Smith ATL 
+235.3 222 Mason Crosby GB 
 216.1 223 Devin Funchess GB 
-241.8 224 Jake Elliott PHI 
-227.1 225 Stephen Gostkowski FA 
-229.3 226 Jameis Winston FA 
-236.5 227 Gerald Everett LAR 
-241.8 228 Cleveland (CLE) 
-246.6 229 Brandon McManus DEN 
-237.3 230 Vance McDonald PIT 
-247.6 231 Joey Slye CAR 
-222.9 232 Damien Harris NE 
-253.1 233 Dwayne Haskins WAS 
+241.7 224 Jake Elliott PHI 
+227.7 225 Jameis Winston FA 
+227.7 226 Stephen Gostkowski FA 
+235.2 227 Gerald Everett LAR 
+246.5 228 Brandon McManus DEN 
+241.9 229 Cleveland (CLE) 
+248.2 230 Joey Slye CAR 
+221.7 231 Damien Harris NE 
+252.8 232 Dwayne Haskins WAS 
 Tier 13
-224.4 234 Auden Tate CIN 
-250.4 235 Dan Bailey MIN 
-248.1 236 Dallas (DAL) 
-249.8 237 Mitch Trubisky CHI 
-237.1 238 Miles Boykin BAL 
-234.4 239 Chris Thompson FA 
-251.0 240 Jimmy Graham CHI 
-218.2 241 Lamar Miller FA 
-231.1 242 Nelson Agholor LV 
-247.4 243 Zach Pascal IND 
-252.3 244 Cameron Brate TB 
-238.3 245 J.J. Arcega-Whiteside PHI 
-234.9 246 Dion Lewis NYG 
-264.1 247 Jason Myers SEA 
-257.2 248 Indianapolis (IND) 
-232.8 249 Kelvin Harmon WAS 
-227.5 250 Taylor Gabriel FA 
-270.6 251 Chris Boswell PIT 
-243.6 252 Marquez Valdes-Scantling GB 
-117.1 253 Jonathan Taylor FA 
-246.5 254 Demarcus Robinson KC 
-261.9 255 Jalen Richard LV 
-241.2 256 David Moore SEA 
-252.6 257 Darrel Williams KC 
-270.8 258 Younghoe Koo ATL 
-273.0 259 Houston (HOU) 
-277.0 260 Stephen Hauschka BUF 
-251.0 261 Jakobi Meyers NE 
-245.6 262 Jordan Wilkins IND 
-252.2 263 Bo Scarbrough DET 
-253.2 264 DaeSean Hamilton DEN 
-253.8 265 Steven Sims WAS 
-276.1 266 Tampa Bay (TB) 
-135.6 267 D'Andre Swift FA 
-257.1 268 Jalen Hurd SF 
-266.7 269 Jacob Hollister SEA 
-143.9 270 J.K. Dobbins FA 
-277.1 271 Nick Foles CHI 
-259.7 272 Josh Reynolds LAR 
-147.3 273 CeeDee Lamb FA 
-148.5 274 Jerry Jeudy FA 
-239.7 275 LeSean McCoy FA 
-281.1 276 Josh Lambo JAC 
-253.8 277 Phillip Dorsett SEA 
-265.2 278 Adam Humphries TEN 
-240.1 279 Tyrod Taylor LAC 
-225.4 280 Antonio Brown FA 
+240.2 233 Vance McDonald PIT 
+224.9 234 Auden Tate CIN 
+251.5 235 Dan Bailey MIN 
+247.1 236 Dallas (DAL) 
+252.6 237 Mitch Trubisky CHI 
+250.6 238 Jimmy Graham CHI 
+235.8 239 Chris Thompson FA 
+247.0 240 Zach Pascal IND 
+252.4 241 Cameron Brate TB 
+232.3 242 Nelson Agholor LV 
+239.0 243 Miles Boykin BAL 
+239.0 244 J.J. Arcega-Whiteside PHI 
+220.0 245 Lamar Miller FA 
+263.7 246 Jason Myers SEA 
+234.9 247 Dion Lewis NYG 
+259.5 248 Indianapolis (IND) 
+233.6 249 Kelvin Harmon WAS 
+228.1 250 Taylor Gabriel FA 
+269.6 251 Chris Boswell PIT 
+117.1 252 Jonathan Taylor FA 
+268.5 253 Younghoe Koo ATL 
+244.2 254 Marquez Valdes-Scantling GB 
+247.3 255 Demarcus Robinson KC 
+253.5 256 Darrel Williams KC 
+272.0 257 Houston (HOU) 
+242.3 258 David Moore SEA 
+135.7 259 D'Andre Swift FA 
+276.7 260 Stephen Hauschka BUF 
+265.3 261 Jalen Richard LV 
+245.2 262 Jordan Wilkins IND 
+251.3 263 Jakobi Meyers NE 
+274.8 264 Tampa Bay (TB) 
+252.1 265 Steven Sims WAS 
+252.1 266 Bo Scarbrough DET 
+143.9 267 J.K. Dobbins FA 
+254.3 268 DaeSean Hamilton DEN 
+147.1 269 CeeDee Lamb FA 
+148.3 270 Jerry Jeudy FA 
+274.8 271 Nick Foles CHI 
+256.9 272 Jalen Hurd SF 
+268.1 273 Jacob Hollister SEA 
+259.4 274 Josh Reynolds LAR 
+280.7 275 Josh Lambo JAC 
+239.9 276 LeSean McCoy FA 
+240.3 277 Tyrod Taylor LAC 
+254.4 278 Phillip Dorsett SEA 
+266.2 279 Adam Humphries TEN 
+224.4 280 Antonio Brown FA 
+177.6 281 Joe Burrow FA 
 Tier 14
-274.2 281 T.J. Yeldon BUF 
-287.4 282 Jacksonville (JAC) 
-261.6 283 Demaryius Thomas FA 
-267.9 284 Willie Snead BAL 
-263.6 285 Mike Boone MIN 
-273.7 286 Patrick Laird MIA 
-268.6 287 Delanie Walker FA 
-295.5 288 Atlanta (ATL) 
-288.4 289 Brett Maher NYJ 
-284.5 290 Russell Gage ATL 
-265.2 291 Keke Coutee HOU 
-296.3 292 Aldrick Rosas NYG 
-271.7 293 Brian Hill ATL 
-179.5 294 Joe Burrow FA 
-291.1 295 Austin Seibert CLE 
-167.1 296 Clyde Edwards-Helaire FA 
-302.4 297 Andy Dalton CIN 
-169.1 298 Cam Akers FA 
-201.8 299 Henry Ruggs III FA 
-304.9 300 Washington (WAS) 
-284.6 301 Jordan Akins HOU 
-289.5 302 Wayne Gallman NYG 
-275.6 303 Trey Burton CHI 
-200.5 304 Justin Jefferson FA 
-297.0 305 Dare Ogunbowale TB 
-206.2 306 Tee Higgins FA 
-288.7 307 Bryce Love WAS 
-307.4 308 Carolina (CAR) 
-305.6 309 Daniel Carlson LV 
+286.5 282 Jacksonville (JAC) 
+273.9 283 T.J. Yeldon BUF 
+261.5 284 Demaryius Thomas FA 
+267.7 285 Willie Snead BAL 
+264.5 286 Mike Boone MIN 
+268.4 287 Delanie Walker FA 
+274.1 288 Patrick Laird MIA 
+166.4 289 Clyde Edwards-Helaire FA 
+288.2 290 Brett Maher NYJ 
+295.6 291 Atlanta (ATL) 
+199.5 292 Henry Ruggs III FA 
+284.4 293 Russell Gage ATL 
+168.4 294 Cam Akers FA 
+296.5 295 Aldrick Rosas NYG 
+265.0 296 Keke Coutee HOU 
+272.3 297 Brian Hill ATL 
+291.0 298 Austin Seibert CLE 
+304.8 299 Washington (WAS) 
+200.5 300 Justin Jefferson FA 
+284.9 301 Jordan Akins HOU 
+304.3 302 Andy Dalton CIN 
+290.1 303 Wayne Gallman NYG 
+276.4 304 Trey Burton CHI 
+206.2 305 Tee Higgins FA 
+297.1 306 Dare Ogunbowale TB 
+307.0 307 Carolina (CAR) 
+305.0 308 Daniel Carlson LV 
+289.3 309 Bryce Love WAS 
 312.6 310 Detroit (DET) 
-288.9 311 Greg Ward PHI 
-289.5 312 Keelan Cole JAC 
-296.6 313 Travis Homer SEA 
-300.7 314 Jerick McKinnon SF 
-314.6 315 Las Vegas (LV) 
-293.9 316 Myles Gaskin MIA 
-302.6 317 Kendrick Bourne SF 
-294.8 318 Geronimo Allison DET 
-295.0 319 Kai Forbath DAL 
-300.2 320 Jacoby Brissett IND 
-297.6 321 Dante Pettis SF 
-297.8 322 Ted Ginn NO 
-310.7 323 Adam Vinatieri FA 
-266.1 324 Jarrett Stidham NE 
-287.3 325 Josh Gordon FA 
-308.0 326 Marquise Goodwin SF 
-238.8 327 Jace Sternberger GB 
-308.8 328 Justin Watson TB 
-305.6 329 Qadree Ollison ATL 
-309.6 330 Marcus Mariota LV 
-232.5 331 Laviska Shenault Jr. FA 
-290.0 332 Paul Richardson Jr. FA 
-222.1 333 A.J. Dillon FA 
-308.8 334 Kalen Ballage MIA 
-223.3 335 Zack Moss FA 
+288.7 311 Greg Ward PHI 
+290.4 312 Keelan Cole JAC 
+299.7 313 Jerick McKinnon SF 
+296.1 314 Travis Homer SEA 
+315.3 315 Las Vegas (LV) 
+293.6 316 Myles Gaskin MIA 
+302.8 317 Kendrick Bourne SF 
+295.1 318 Kai Forbath DAL 
+296.0 319 Geronimo Allison DET 
+297.9 320 Dante Pettis SF 
+240.1 321 Jace Sternberger GB 
+302.3 322 Jacoby Brissett IND 
+298.3 323 Ted Ginn NO 
+266.5 324 Jarrett Stidham NE 
+285.9 325 Josh Gordon FA 
+311.2 326 Adam Vinatieri FA 
+232.5 327 Laviska Shenault Jr. FA 
+308.5 328 Marquise Goodwin SF 
+308.8 329 Marcus Mariota LV 
+309.1 330 Justin Watson TB 
+306.7 331 Qadree Ollison ATL 
+222.1 332 A.J. Dillon FA 
+289.7 333 Paul Richardson Jr. FA 
+308.9 334 Kalen Ballage MIA 
+314.6 335 Dustin Hopkins WAS 
+223.3 336 Zack Moss FA 
+226.7 337 Jalen Reagor FA 
 Tier 15
-226.7 336 Jalen Reagor FA 
-319.1 337 Mike Davis CAR 
-315.5 338 Dustin Hopkins WAS 
-289.9 339 Tyler Eifert JAC 
-308.9 340 KeeSean Johnson ARI 
-323.6 341 Reggie Bonnafon CAR 
-297.1 342 Frank Gore FA 
-318.8 343 Zay Jones LV 
-324.3 344 Ty Montgomery FA 
-320.9 345 Jeff Wilson SF 
-325.6 346 Ty Johnson DET 
+289.8 338 Tyler Eifert JAC 
+319.5 339 Mike Davis CAR 
+307.6 340 KeeSean Johnson ARI 
+323.3 341 Reggie Bonnafon CAR 
+295.6 342 Frank Gore FA 
+319.8 343 Zay Jones LV 
+320.8 344 Jeff Wilson SF 
+325.1 345 Ty Montgomery FA 
+325.8 346 Ty Johnson DET 
 316.8 347 Bilal Powell FA 
 326.4 348 Dexter Williams GB 
-322.8 349 Quincy Enunwa NYJ 
-290.6 350 Darren Fells HOU 
-190.8 351 Ke'Shawn Vaughn FA 
-335.6 352 Trayveon Williams CIN 
-300.3 353 Josh Oliver JAC 
-333.9 354 Corey Clement FA 
-222.6 355 Denzel Mims FA 
-232.4 356 Eno Benjamin FA 
-305.1 357 Tua Tagovailoa FA 
-239.0 358 Michael Pittman Jr. FA 
-323.8 359 Chase McLaughlin IND 
-331.7 360 Dontrell Hilliard CLE 
-320.2 361 New York (NYG) 
-334.6 362 Kerrith Whyte Jr. PIT 
-331.7 363 Devontae Booker DEN 
-283.7 364 Ryan Griffin NYJ 
+323.8 349 Quincy Enunwa NYJ 
+190.8 350 Ke'Shawn Vaughn FA 
+291.5 351 Darren Fells HOU 
+300.3 352 Josh Oliver JAC 
+335.7 353 Trayveon Williams CIN 
+222.6 354 Denzel Mims FA 
+318.2 355 New York (NYG) 
+334.1 356 Corey Clement FA 
+232.4 357 Eno Benjamin FA 
+305.1 358 Tua Tagovailoa FA 
+239.0 359 Michael Pittman Jr. FA 
+283.4 360 Ryan Griffin NYJ 
+324.2 361 Chase McLaughlin IND 
+331.5 362 Dontrell Hilliard CLE 
+328.2 363 Arizona (ARI) 
+335.2 364 Kerrith Whyte Jr. PIT 
 239.3 365 Darrynton Evans FA 
-242.0 366 Brandon Aiyuk FA 
-337.3 367 Kyle Juszczyk SF 
-331.9 368 C.J. Anderson FA 
-332.3 369 Arizona (ARI) 
-213.7 370 Tyler Johnson FA 
+331.4 366 Devontae Booker DEN 
+305.6 367 Jason Witten LV 
+242.0 368 Brandon Aiyuk FA 
+213.7 369 Tyler Johnson FA 
+332.7 370 Cincinnati (CIN) 
 261.0 371 Anthony McFarland Jr. FA 
-309.3 372 Jason Witten LV 
-276.8 373 Jordan Reed FA 
-336.1 374 Cincinnati (CIN) 
-280.5 375 Antonio Gibson FA 
-303.4 376 Tim Patrick DEN 
-283.8 377 Riley Ridley CHI 
-248.0 378 Mo Alie-Cox IND 
-305.8 379 Hakeem Butler ARI 
-178.5 380 J.D. McKissic WAS 
-331.1 381 Justin Herbert FA 
-339.3 382 Taysom Hill NO 
+292.2 372 Eddy Pineiro CHI 
+337.4 373 Kyle Juszczyk SF 
+331.9 374 C.J. Anderson FA 
+276.8 375 Jordan Reed FA 
+300.2 376 Ryan Succop FA 
+280.5 377 Antonio Gibson FA 
+303.4 378 Tim Patrick DEN 
+283.8 379 Riley Ridley CHI 
+248.0 380 Mo Alie-Cox IND 
+305.8 381 Hakeem Butler ARI 
+178.5 382 J.D. McKissic WAS 
+331.1 383 Justin Herbert FA 
+339.3 384 Taysom Hill NO 
 Tier 16
-310.0 383 Cole Kmet FA 
-291.5 384 Eddy Pineiro CHI 
-292.3 385 Olabisi Johnson MIN 
-295.5 386 Scott Miller TB 
-317.4 387 Allen Hurns MIA 
-319.0 388 Kaden Smith NYG 
-270.7 389 Joshua Kelley FA 
-304.3 390 Ryan Succop FA 
-282.7 391 James Robinson FA 
-312.8 392 Miami (MIA) 
-288.0 393 John Kelly LAR 
-288.7 394 Albert Okwuegbunam FA 
-318.3 395 Jason Sanders MIA 
-319.3 396 Tajae Sharpe MIN 
-295.7 397 Jonathan Williams IND 
-321.0 398 Brycen Hopkins FA 
-336.0 399 Joe Flacco FA 
-303.7 400 Foster Moreau LV 
-306.3 401 Randy Bullock CIN 
+310.0 385 Cole Kmet FA 
+292.3 386 Olabisi Johnson MIN 
+295.5 387 Scott Miller TB 
+317.4 388 Allen Hurns MIA 
+299.5 389 Randy Bullock CIN 
+270.7 390 Joshua Kelley FA 
+301.8 391 Foster Moreau LV 
+321.2 392 Kaden Smith NYG 
+280.7 393 Jonathan Williams IND 
+282.7 394 James Robinson FA 
+312.8 395 Miami (MIA) 
+288.0 396 John Kelly LAR 
+288.7 397 Albert Okwuegbunam FA 
+318.3 398 Jason Sanders MIA 
+319.3 399 Tajae Sharpe MIN 
+321.0 400 Brycen Hopkins FA 
+336.0 401 Joe Flacco FA 
 341.0 402 Drew Sample CIN 
 307.7 403 KJ Hamler FA 
 309.3 404 Donovan Peoples-Jones FA 
