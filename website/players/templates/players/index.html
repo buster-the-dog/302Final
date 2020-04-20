@@ -26,6 +26,7 @@
 				{% endif %}
 				<thead class="thead-dark">
 					<tr>
+					<th>Remove</th>	
 					{% if use_common_list %}
 					{% for stat, val in player_list.0.CommonFieldList.items %}
 						<th>{{ stat }}</th>
@@ -41,6 +42,9 @@
 				<tbody>
 					{% for player in player_list %}
 					<tr>
+						<td>
+						<button type="button" class= "delete" title="Remove Player" data-toggle="tooltip" onclick="Remove()">X</button>
+						</td>
 					{% if use_common_list %}
 						{% for key, val in player.CommonFieldList.items %}
 						<td> {{ val }} </td>
@@ -67,3 +71,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
 <script src="{% static 'players/javascript.js' %}"></script>
+<script>
+function Remove(){
+    var td = event.target.parentNode; 
+    var tr = td.parentNode;
+	tr.parentNode.removeChild(tr);
+}
+</script>
