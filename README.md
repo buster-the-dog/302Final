@@ -1,7 +1,8 @@
 # 302Final
 
 To run website:
-```cd website
+```
+cd website
 python manage.py runserver
 ``` 
 
