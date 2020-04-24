@@ -6,31 +6,31 @@ Tier 1
 4.3 4 Greg Zuerlein DAL 
 Tier 2
 5.4 5 Robbie Gould SF 
-6.9 6 Matt Gay TB 
+7.1 6 Matt Gay TB 
 7.2 7 Matt Prater DET 
-8.8 8 Zane Gonzalez ARI 
+9.0 8 Zane Gonzalez ARI 
 Tier 3
 10.8 9 Michael Badgley LAC 
 10.9 10 Ka'imi Fairbairn HOU 
-13.5 11 Jake Elliott PHI 
-13.9 12 Younghoe Koo ATL 
-14.7 13 Dan Bailey MIN 
-13.5 14 Mason Crosby GB 
-15.7 15 Jason Myers SEA 
-15.9 16 Brandon McManus DEN 
-16.2 17 Joey Slye CAR 
+13.1 11 Jake Elliott PHI 
+14.3 12 Younghoe Koo ATL 
+14.8 13 Dan Bailey MIN 
+13.6 14 Mason Crosby GB 
+15.5 15 Brandon McManus DEN 
+15.9 16 Jason Myers SEA 
+16.4 17 Joey Slye CAR 
 Tier 4
 17.2 18 Chris Boswell PIT 
-18.7 19 Stephen Hauschka BUF 
-15.0 20 Stephen Gostkowski FA 
+14.2 19 Stephen Gostkowski FA 
+18.9 20 Stephen Hauschka BUF 
 19.2 21 Josh Lambo JAC 
-22.1 22 Brett Maher NYJ 
-22.7 23 Austin Seibert CLE 
+22.4 22 Brett Maher NYJ 
 Tier 5
-25.6 24 Aldrick Rosas NYG 
-26.4 25 Daniel Carlson LV 
-24.7 26 Kai Forbath DAL 
-19.8 27 Chase McLaughlin IND 
+23.0 23 Austin Seibert CLE 
+25.7 24 Aldrick Rosas NYG 
+19.8 25 Chase McLaughlin IND 
+26.8 26 Daniel Carlson LV 
+24.8 27 Kai Forbath DAL 
 27.5 28 Dustin Hopkins WAS 
 27.7 29 Adam Vinatieri FA 
 27.4 30 Randy Bullock CIN 

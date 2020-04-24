@@ -715,31 +715,38 @@ players, QBs, RBs, WRs, TEs, Ks, DEFs = ReadTiers("stats/Tiers.txt", players, QB
 for player in players.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in QBs.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in RBs.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in WRs.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in TEs.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in Ks.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
+        player.composite = round(player.composite, 3)
 
 for player in DEFs.values():
     if player.avgPosRank != 500 and player.avgRank != 500:
         player.composite = player.avgPosRank + player.avgRank + player.projRank + player.newPosRank + player.tier + player.posTier
-
+        player.composite = round(player.composite, 3)
+        
 # put all players into new dictionaries
 # this acts essentially as a c++ multimap, storing all players
 # with keys as composite and vals as lists of players with that composite
@@ -775,9 +782,13 @@ bestKs = OrderedDict(sorted(bestKs.items()))
 bestDEFs = OrderedDict(sorted(bestDEFs.items()))
 
 # some printing for testing purposes
-"""
+i = 1
 for vals in bestAll.values():
     for player in vals:
         if player.composite != 10000:
+            print(i, end=". ")
             print(str(player.composite) + ' ' + player.name + ' ' + str(player.projRank))
-"""
+            if(i % 12 == 0):
+                print('\n')
+            i = i+1
+            
