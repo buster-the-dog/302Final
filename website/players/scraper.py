@@ -1,3 +1,7 @@
+# This program grabs data from multiple fantasy football
+# websites and outputs useful data into txt files to be read by read.py
+
+
 import requests                 # used to access websites
 from bs4 import BeautifulSoup   # used to parse html data
 import os                       # used to delete files

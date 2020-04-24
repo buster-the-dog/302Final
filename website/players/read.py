@@ -1,3 +1,7 @@
+# This program reads in txt files created by scraper.py
+# and processes the data into classes defined below
+
+
 from collections import OrderedDict     # to sort by key
 from collections import defaultdict     # to easily make a dictionary of lists
 

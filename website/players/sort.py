@@ -1,3 +1,7 @@
+# This program uses read.py to sort all the players into their
+# classes, then loads them into models to be used by django
+# to be displayed on the website
+
 import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "website.settings")
 import django
